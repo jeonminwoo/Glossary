@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+        <key>ABR</key>
+        <string>Abandon Rate</string>
+        <key>ABT</key>
+        <string>Automated Bag Tag</string>
+        <key>AHT</key>
+        <string>Average Handling Time</string>
+        <key>AC</key>
+        <string>Aircraft</string>
+        <key>ACAA</key>
+        <string>Air Carrier Access Act</string>
+        <key>ACARS</key>
+        <string>Aircraft Communications Addressing and Reporting System</string>
+        <key>AD</key>
+        <string>Assistive Device</string>
+        <key>ADA</key>
+        <string>Americans with Disabilities Act</string>
+        <key>ADIT</key>
+        <string>Assisted Device Inspection Tag</string>
+        <key>AFR</key>
+        <string>Refund Draft</string>
+        <key>AMFA</key>
+        <string>Aircraft Mechanics Fraternal Association</string>
+        <key>ANI</key>
+        <string>Automated Number Identification</string>
+        <key>AOA</key>
+        <string>Airport Operations Area</string>
+        <key>AOM</key>
+        <string>Automated Outbound Messaging</string>
+        <key>AOP</key>
+        <string>Annual Operating Plan</string>
+        <key>AP</key>
+        <string>Accounts Payable</string>
+        <key>ARE</key>
+        <string>Automated Refunds and Exchange</string>
+        <key>ARNK</key>
+        <string>Arrival Unknown</string>
+        <key>ASAP</key>
+        <string>As Soon As Possible</string>
+        <key>ATA</key>
+        <string>Air Transport Association</string>
+        <key>BA</key>
+        <string>Business Administration</string>
+        <key>BBBB</key>
+        <string>Burgers &amp; Beer Birthday Bash (HDQ)</string>
+        <key>BDO</key>
+        <string>Baggage Delivery Order</string>
+        <key>BOB</key>
+        <string>Beginning of Business</string>
+        <key>BPR</key>
+        <string>Business Performance Review</string>
+        <key>BR</key>
+        <string>Bag Returned</string>
+        <key>BRUTIS</key>
+        <string>Baggage, Reporting, Updating, Tracing, Information, System</string>
+        <key>BSI</key>
+        <string>Baggage Support Initiative</string>
+        <key>BSO</key>
+        <string>Baggage Service Office</string>
+        <key>BT</key>
+        <string>Bag Tag</string>
+        <key>C2C</key>
+        <string>Click to Coach</string>
+        <key>C&amp;L</key>
+        <string>Change &amp; Learn</string>
+        <key>CA</key>
+        <string>Conditionally Accepted</string>
+        <key>CAM</key>
+        <string>Customer Account Management</string>
+        <key>CAP</key>
+        <string>Customer Assistance Plan</string>
+        <key>CASM</key>
+        <string>Cost Average Seat Mile</string>
+        <key>CATIS</key>
+        <string>Customer Advised to Inform Station</string>
+        <key>CBS</key>
+        <string>Central Baggage Services</string>
+        <key>CBSS</key>
+        <string>Central Baggage Support Specialist</string>
+        <key>CC</key>
+        <string>Credit Card</string>
+        <key>CCR</key>
+        <string>Customer Care Representative</string>
+        <key>CEBS</key>
+        <string>Customer Experience Business Services</string>
+        <key>CIRRUS</key>
+        <string>Customer Information and Reservation Repository Unified Solution (an application that holds Passenger history)</string>
+        <key>CK</key>
+        <string>Check</string>
+        <key>CL</key>
+        <string>Central Leader</string>
+        <key>CO</key>
+        <string>Carryon</string>
+        <key>COB</key>
+        <string>Close of Business</string>
+        <key>COC</key>
+        <string>Contract of Carriage</string>
+        <key>COD</key>
+        <string>Cash on Delivery</string>
+        <key>Codeshare</key>
+        <string>Partnership with another airline</string>
+        <key>CP</key>
+        <string>Companion Pass</string>
+        <key>CR</key>
+        <string>Customer Relations / Customer Representatives (CS&amp;S)</string>
+        <key>CRD</key>
+        <string>Child Restraint Device</string>
+        <key>CRO</key>
+        <string>Complaint Resolution Officer</string>
+        <key>CRS</key>
+        <string>Child Restraint System</string>
+        <key>CS&amp;S</key>
+        <string>Customer Support &amp; Services</string>
+        <key>CSA</key>
+        <string>Customer Service Agent</string>
+        <key>CSC</key>
+        <string>Customer Service Commitment</string>
+        <key>CSL</key>
+        <string>Center Support Leader</string>
+        <key>CSM</key>
+        <string>Customer Service Manager</string>
+        <key>CSR</key>
+        <string>Customer Service Representative</string>
+        <key>CSS</key>
+        <string>Customer Service Specialist (CS&amp;S) / Customer Service Supervisor (Airport Supervisor)</string>
+        <key>CTI</key>
+        <string>Computer Telephony Integration</string>
+        <key>DAT</key>
+        <string>Day at a Time</string>
+        <key>DHS</key>
+        <string>Department of Homeland Security</string>
+        <key>DL</key>
+        <string>Driver's License</string>
+        <key>DMG</key>
+        <string>Damage</string>
+        <key>DNS</key>
+        <string>Do Not Schedule</string>
+        <key>DOT</key>
+        <string>Department of Transportation</string>
+        <key>DRS</key>
+        <string>Direct Reference System (in Qik4)</string>
+        <key>DRTT</key>
+        <string>Disaster Relief Temporary Team</string>
+        <key>DSI</key>
+        <string>Distribution Solutions International</string>
+        <key>EAP</key>
+        <string>Employee Assistance Program (ClearSkies)</string>
+        <key>EAS</key>
+        <string>Employee Assistance Services</string>
+        <key>EB</key>
+        <string>EarlyBird</string>
+        <key>EE</key>
+        <string>Employee</string>
+        <key>EFT</key>
+        <string>Electronic Flight Time</string>
+        <key>EO</key>
+        <string>Executive Office</string>
+        <key>EOAS</key>
+        <string>Executive Office Administrative Services</string>
+        <key>EOD</key>
+        <string>End of Day</string>
+        <key>EOM</key>
+        <string>End of Month</string>
+        <key>EOQ</key>
+        <string>End of Quarter / Employee of Quarter (CS&amp;S)</string>
+        <key>EOY</key>
+        <string>End of Year</string>
+        <key>ER</key>
+        <string>Emergency Response / Employee Resources / Employee Relations</string>
+        <key>ERR</key>
+        <string>Error</string>
+        <key>ERT</key>
+        <string>Emergency Response Team</string>
+        <key>ESAN</key>
+        <string>Emotional Support Animal / Employee Status Action Notification</string>
+        <key>EWT</key>
+        <string>Estimated Wait Time</string>
+        <key>EXT</key>
+        <string>Extension</string>
+        <key>FA</key>
+        <string>Flight Attendant</string>
+        <key>FAA</key>
+        <string>Federal Aviation Administration</string>
+        <key>FAC</key>
+        <string>Family Assistance Center</string>
+        <key>FAM</key>
+        <string>Federal Air Marshal</string>
+        <key>FAQ</key>
+        <string>Frequently Asked Question</string>
+        <key>FC</key>
+        <string>Force Check</string>
+        <key>FedEx</key>
+        <string>Federal Express</string>
+        <key>FHL</key>
+        <string>Floating Holiday</string>
+        <key>Flifo</key>
+        <string>Flight Following or Flight Information</string>
+        <key>FLY</key>
+        <string />
+        <key>FMLA</key>
+        <string>Family Medical Leave Act</string>
+        <key>FMV</key>
+        <string>Fair Market Value</string>
+        <key>FMYH</key>
+        <string>Funny Meeting You Here (conference room)</string>
+        <key>FOP</key>
+        <string>Form of Payment</string>
+        <key>FTE</key>
+        <string>Fulltime Equivalent</string>
+        <key>GFL</key>
+        <string>Guideline for Leaders</string>
+        <key>GO</key>
+        <string>Ground Operations</string>
+        <key>GOG</key>
+        <string>Gesture of Goodwill</string>
+        <key>GOM</key>
+        <string>Ground Operations Manual</string>
+        <key>GOT</key>
+        <string>Ground Operations Training</string>
+        <key>GSC</key>
+        <string>Ground Security Coordinator</string>
+        <key>HAZMAT</key>
+        <string>Hazardous Materials</string>
+        <key>HDQ</key>
+        <string>Headquarters</string>
+        <key>HECC</key>
+        <string>Headquarters Emergency Command Center</string>
+        <key>HIPA</key>
+        <string>Health Information Protection Act</string>
+        <key>HFPU</key>
+        <string>Hold For Pick Up</string>
+        <key>HRIC</key>
+        <string>Human Resources Information Center</string>
+        <key>HVI</key>
+        <string>High Value Item</string>
+        <key>IAM</key>
+        <string>International Association of Machinists</string>
+        <key>IATA</key>
+        <string>International Air Transport Association</string>
+        <key>ICC</key>
+        <string>Internal Customer Care</string>
+        <key>ID</key>
+        <string>Identification</string>
+        <key>INF</key>
+        <string>Infant</string>
+        <key>IPA</key>
+        <string>Internal Placement Application</string>
+        <key>IVR</key>
+        <string>Interactive Voice Response</string>
+        <key>IX</key>
+        <string>Interim Expense</string>
+        <key>JRY</key>
+        <string>Jury Duty</string>
+        <key>L&amp;F</key>
+        <string>Lost and Found</string>
+        <key>LB</key>
+        <string>Lost Bag</string>
+        <key>LC</key>
+        <string>Late Check</string>
+        <key>LEO</key>
+        <string>Law Enforcement Official</string>
+        <key>LFOM</key>
+        <string>Left Message on Machine</string>
+        <key>LMS</key>
+        <string>Learning Management System</string>
+        <key>LOA</key>
+        <string>Leave of Absence</string>
+        <key>LOL</key>
+        <string>Leaders on Location</string>
+        <key>LPS</key>
+        <string>Loading Planning System</string>
+        <key>LUV</key>
+        <string>New York Stock Exchange symbol for Southwest Airlines Company</string>
+        <key>LWOP</key>
+        <string>Leave Without Pay</string>
+        <key>LZ</key>
+        <string>Warehouse</string>
+        <key>MA</key>
+        <string>Missing Article</string>
+        <key>MLOA</key>
+        <string>Medical Leave of Absence</string>
+        <key>MOT</key>
+        <string>Mandatory Overtime</string>
+        <key>MR</key>
+        <string>Must Ride</string>
+        <key>MRO</key>
+        <string>Manager of Ramp and Ops</string>
+        <key>MSS</key>
+        <string>Manager Self Service</string>
+        <key>MX</key>
+        <string>Maintenance</string>
+        <key>NDA</key>
+        <string>Non Disclosure Agreement</string>
+        <key>NPE</key>
+        <string>Non Passenger Escort</string>
+        <key>NRMR</key>
+        <string>Nonrevenue Must Ride</string>
+        <key>NRPS</key>
+        <string>Nonrevenue Positive Space</string>
+        <key>NRSA</key>
+        <string>Nonrevenue Space Available</string>
+        <key>OHB</key>
+        <string>Overhead Bin</string>
+        <key>OHD</key>
+        <string>On-Hand Bag</string>
+        <key>OJI</key>
+        <string>On the Job Inquiry</string>
+        <key>OJT</key>
+        <string>On the Job Training</string>
+        <key>OOO</key>
+        <string>Out of Office</string>
+        <key>OPS</key>
+        <string>Operations</string>
+        <key>OPX</key>
+        <string>On Premise Extension</string>
+        <key>OSI</key>
+        <string>Other Service Information</string>
+        <key>OT</key>
+        <string>Ontime</string>
+        <key>OTHS</key>
+        <string>Law Enforcement Official Extra Seat</string>
+        <key>OTIS</key>
+        <string>Operations Terminal Information System</string>
+        <key>PA</key>
+        <string>Performance Appraisal</string>
+        <key>PAC</key>
+        <string>Personal Access Code</string>
+        <key>PAWOB</key>
+        <string>Passenger Arrived Without Bag</string>
+        <key>PAX</key>
+        <string>Passenger</string>
+        <key>PCard</key>
+        <string>Purchasing Card</string>
+        <key>PCC</key>
+        <string>Petty Cash Card</string>
+        <key>PCR</key>
+        <string>Position Creation Request</string>
+        <key>PCS</key>
+        <string>Proactive Customer Service Communications</string>
+        <key>PIP</key>
+        <string>Performance Improvement Plan</string>
+        <key>PNR</key>
+        <string>Passenger Name Record</string>
+        <key>PO</key>
+        <string>Purchase Order</string>
+        <key>POC</key>
+        <string>Point of Contact (CS&amp;S) / Portable Oxygen Concentrator</string>
+        <key>POD</key>
+        <string>Proof of Delivery</string>
+        <key>POS</key>
+        <string>Positively Outrageous Service</string>
+        <key>PPLCF</key>
+        <string>Passenger Property Loss Claim Form</string>
+        <key>PPU</key>
+        <string>Passenger Pick Up</string>
+        <key>Probie</key>
+        <string />
+        <key>PS</key>
+        <string>Positive Space</string>
+        <key>PSO</key>
+        <string>Passenger Service Order</string>
+        <key>PTA</key>
+        <string>Pre-Paid Ticket</string>
+        <key>PTK</key>
+        <string>Passenger Transfer Kit</string>
+        <key>QIK RES</key>
+        <string>Reservations Booking System</string>
+        <key>RAC</key>
+        <string>Rental Car</string>
+        <key>RES</key>
+        <string>Reservations</string>
+        <key>RET</key>
+        <string>Return(ed)</string>
+        <key>RFI</key>
+        <string>Request for Information</string>
+        <key>RFP</key>
+        <string>Request for Proposal</string>
+        <key>RFID</key>
+        <string>Radio Frequency Identification</string>
+        <key>RMS</key>
+        <string>Reservation Management System</string>
+        <key>RNP</key>
+        <string>Required Navigation Performance</string>
+        <key>ROC</key>
+        <string>Report of Complaint</string>
+        <key>RON</key>
+        <string>Remain Overnight</string>
+        <key>RR</key>
+        <string>Rapid Rewards</string>
+        <key>RSA</key>
+        <string>Reservations Sales Agent</string>
+        <key>RSR</key>
+        <string>Reservation System Replacement</string>
+        <key>RTF</key>
+        <string>Return Transfer Funds</string>
+        <key>SA</key>
+        <string>Space Available</string>
+        <key>SAAS</key>
+        <string>Host system, product of Sabre</string>
+        <key>Sabre</key>
+        <string>Travel technology company</string>
+        <key>SAP</key>
+        <string>Systems, Applications, and Products (system used to track expenses, payroll, benefits, etc.)</string>
+        <key>SAM</key>
+        <string>Station Advisory Message</string>
+        <key>SCAT</key>
+        <string>Scheduling and Call Allocation Team (CS&amp;S) / Safety Culture Assessment Tool</string>
+        <key>SCC</key>
+        <string>Station Coordination Center</string>
+        <key>SD</key>
+        <string>Security Directive</string>
+        <key>SDN</key>
+        <string>Secondary Directory Number</string>
+        <key>SECR</key>
+        <string>Station Emergency Control Room</string>
+        <key>SEP</key>
+        <string>Station Emergency Program</string>
+        <key>SET</key>
+        <string>Sabre Electronic Ticketing</string>
+        <key>SH</key>
+        <string>Special Handling</string>
+        <key>SIDA</key>
+        <string>Security Identification Display Area</string>
+        <key>SITA</key>
+        <string>Security International Telecommunications Aeronautics</string>
+        <key>SLV</key>
+        <string>Southwest Arilines LUV Voucher</string>
+        <key>SME</key>
+        <string>Subject Matter Expert</string>
+        <key>SNAP</key>
+        <string>Southwest Near International Airline Portal</string>
+        <key>SOD</key>
+        <string>Spirit of Dallas</string>
+        <key>SODA</key>
+        <string>Southwest Operational Disruption Accommodation</string>
+        <key>SOS</key>
+        <string>Source of Support</string>
+        <key>SP</key>
+        <string>Stop Payment</string>
+        <key>SPI</key>
+        <string>Strategic Planning Implementation</string>
+        <key>SR</key>
+        <string>Service Request</string>
+        <key>SSN</key>
+        <string>Social Security Number</string>
+        <key>SST</key>
+        <string>Station Support Team</string>
+        <key>STA</key>
+        <string>Station</string>
+        <key>STNM</key>
+        <string>Station Manager</string>
+        <key>SVAN</key>
+        <string>Service Animal</string>
+        <key>SWA</key>
+        <string>Southwest Airlines</string>
+        <key>SWABI</key>
+        <string>Southwest Airlines Business Intelligence</string>
+        <key>SWAMI</key>
+        <string>Southwest Airlines Messaging Interface</string>
+        <key>SWAPA</key>
+        <string>Southwest Airlines Pilot Association</string>
+        <key>SWEEP</key>
+        <string>Southwest Electronically Enabled Procurement</string>
+        <key>SWIFT</key>
+        <string>Southwest Airlines Integrated Flight Tracking</string>
+        <key>SWOM</key>
+        <string>Southwest Operations Manual</string>
+        <key>SWOT</key>
+        <string>Southwest Operations Team</string>
+        <key>TA</key>
+        <string>Travel Agent</string>
+        <key>TCB</key>
+        <string>The Connection Building</string>
+        <key>TKLS</key>
+        <string>Ticketless</string>
+        <key>TKT</key>
+        <string>Ticketed</string>
+        <key>TL</key>
+        <string>Time Limit</string>
+        <key>TLC</key>
+        <string>Tracking Loyal Customers</string>
+        <key>TMA</key>
+        <string>Too Many Acronyms</string>
+        <key>TOPS</key>
+        <string>Ticketing Operations Department</string>
+        <key>TRS</key>
+        <string>Telecommunications Relay Service</string>
+        <key>TSA</key>
+        <string>Transportation Security Administration</string>
+        <key>TTT</key>
+        <string>Test the Trainer (also refers to the test environment in developing computer applications)</string>
+        <key>TWU</key>
+        <string>Transport Workers Union</string>
+        <key>TZ</key>
+        <string>American Trans Air IATA Code</string>
+        <key>UM</key>
+        <string>Unaccompanied Minor</string>
+        <key>UPS</key>
+        <string>United Parcel Service / Uninterrupted Power Source</string>
+        <key>VAC</key>
+        <string>Vacation</string>
+        <key>VCR</key>
+        <string>Virtual Coupon Record</string>
+        <key>VM</key>
+        <string>Voicemail</string>
+        <key>VOT</key>
+        <string>Voluntary Overtime</string>
+        <key>VRU</key>
+        <string>Voice Response Unit</string>
+        <key>VS</key>
+        <string>Voluntary Separation</string>
+        <key>WAM</key>
+        <string>Weather Advisory Message</string>
+        <key>WB</key>
+        <string>Wet Bag</string>
+        <key>WCBD</key>
+        <string>Wheelchair Battery Dry (or Gel)</string>
+        <key>WCBW</key>
+        <string>Wheelchair Battery Wet</string>
+        <key>WCHR</key>
+        <string>Airport Provided Wheelchair</string>
+        <key>WCMP</key>
+        <string>Manual Wheelchair</string>
+        <key>WD</key>
+        <string>Water Damage</string>
+        <key>WDRP</key>
+        <string>Weather Disruption Response Plan</string>
+        <key>WDTF</key>
+        <string>Weather Disruption Task Force</string>
+        <key>WN / WNCO</key>
+        <string>Southwest Airlines IATA Code</string>
+        <key>WS</key>
+        <string>West Jet IATA Code</string>
+        <key>WX</key>
+        <string>Weather</string>
+        <key>XLD</key>
+        <string>Cancelled</string>
+        <key>Y4</key>
+        <string>Volaris IATA Code</string>
+</dict>
+</plist>

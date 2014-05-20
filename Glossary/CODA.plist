@@ -1,0 +1,1239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>AAA</key>
+    <string>Agent Assembly Area.  In Sabre, the AAA has 6 areas, labeled A-F. Each can hold a different temporary PNR and can be signed in to a different PCC or userid, but is typically used by the same agent to work on different PNRs simultaneously</string>
+    <key>ACARS</key>
+    <string>Aircraft Communications Addressing and Reporting System</string>
+    <key>Advanced Reporting Services</key>
+    <string>Subscription service provided by SWABIZ to enable electronic polling of the Master Air Report for SWABIZ corporate customers.
+        
+        Synonyms:  Premium Product</string>
+    <key>Aggregator</key>
+    <string>A system which provides centralized availability, pricing and reservation information and process from two or more source computer reservation systems or GDS systems.
+    
+        Examples:  Galileo, Orbitz, Travelocity</string>
+    <key>AIM</key>
+    <string>Application Identity Management</string>
+    <key>Aircraft</key>
+    <string>An airborne vehicle uniquely identified by a tail number.</string>
+    <key>Airline Designator</key>
+    <string>A unique code to identify a particular airline.
+        
+        May be comprised of two or three characters. In the case of two-character designators, they may consist of two alpha characters, one alpha with one numeric, or one numeric with one alpha, but never two numerics. In the case of CRS Suppliers they may only consist of one numeric with one alpha, and the numeric character may only be a 1. In the case of three character designators, they must always contain three alpha characters
+        
+        For example, Southwest has an airline designator of WN.</string>
+    <key>Airline System</key>
+    <string>Computer system maintained by an airline or group of airlines, which holds one or more of the following
+        facilities for an airline: 1) reservations, 2) schedules, 3) inventory, 4) check-in and/or 5) weight  and balance</string>
+    <key>Airport</key>
+    <string>Point of departure or arrival for a flight.  Commonly represented by a three letter IATA code which may or may not be the same code for its associated city.
+        
+        Synonyms:  Station</string>
+    <key>Altea</key>
+    <string>Name of the Amadeus suite of products which includes Altea Inventory,Altea Reservation, and Altea Departure Control</string>
+    <key>Alternative Reservation</key>
+    <string>A definite reservation of space on a flight other than the one originally preferred by the passenger(s).</string>
+    <key>AMS</key>
+    <string>Application Maintenance and Support</string>
+    <key>AO</key>
+    <string>Aircraft Operations</string>
+    <key>AOM</key>
+    <string>Automated Outbound Messaging</string>
+    <key>AOS</key>
+    <string>Aircraft Operations Services</string>
+    <key>APIS</key>
+    <string>Advance Passenger Info System</string>
+    <key>APP</key>
+    <string>Airline Partner Portal</string>
+    <key>AQQ</key>
+    <string>APIS Quick Query</string>
+    <key>ARD</key>
+    <string>Amadeus Reservation Desktop.
+        The tool used to create, modify, and refund bookings by reservation agents.</string>
+    <key>ARE</key>
+    <string>Automated Refunds and Exchanges</string>
+    <key>Arrival Unknown</key>
+    <string>An open jaw with whereby the origination matches the ultimate destination in the itinerary.
+        
+        Example:
+        Segment 1: 11-NOV: SFO/IAD (San Francisco to Washington-Dulles)
+        Segment 2: ARNK:   Arrival Unknown or Surface Transportation from IAD to PHL
+        Segment 3: 15-NOV: PHL/SFO (Philadelphia to San Francisco)
+        
+        Acronym:  ARNK</string>
+    <key>ASC</key>
+    <string>Advice of Schedule Change</string>
+    <key>ASDI</key>
+    <string>Aircraft Situational Display to Industry</string>
+    <key>AST</key>
+    <string>Application Suite Team</string>
+    <key>ATA</key>
+    <string>Air Transport Association</string>
+    <key>ATB1, ATB2</key>
+    <string>Airline Ticketing &amp; Boarding Passes Industry Standards</string>
+    <key>ATC</key>
+    <string>Amadeus Ticket Changer</string>
+    <key>ATPCO</key>
+    <string>Acronym for Airline Tariff Publishing Company</string>
+    <key>ATSE</key>
+    <string>Air Travel Shopping Engine
+        Sabre's new pricing complex to replace FPC (Fare Price Complex)</string>
+    <key>Auxiliary Service Operator</key>
+    <string>Used to designate a vendor who provides desired services and or accommodations needed by the passenger in conjunction with airline space.</string>
+    <key>AVS</key>
+    <string>Availability Status Message
+        Teletype (TTY) messages used to advise other airlines and CRS of seat availability by flight number. They are needed for industry standard free sale inventory access
+        
+        Acronym:  AVS Messsaging</string>
+    <key>Baggage</key>
+    <string>Equivalent to the term “luggage”, means such articles, effects and other personal property of a passenger as are necessary or appropriate for wear, use, comfort or convenience in connection with his trip. Unless otherwise specified, it includes both checked and unchecked baggage.</string>
+    <key>Baggage, Checked</key>
+    <string>Equivalent to “registered luggage”, means baggage of which the carrier takes sole custody and for which carrier has issued a baggage check..</string>
+    <key>Baggage, Unchecked</key>
+    <string>Baggage of which the passenger retains custody.</string>
+    <key>BBR</key>
+    <string>Basic Booking Record. This is the format of the IMCT file.</string>
+    <key>BCP</key>
+    <string>Business Continuity Planning</string>
+    <key>BIDS</key>
+    <string>Boarding Information Display System</string>
+    <key>Boarding Airline</key>
+    <string>The airline on whose flight the passenger is to be carried from a boarding point.</string>
+    <key>Boarding Pass</key>
+    <string>Document issued to a passenger to enable access to an aircraft.  There is s standard industry procedure to combine the ticket and boarding pass into a single machine readable document known as the ATB (Automatic Ticket and Boarding Pass).</string>
+    <key>Boarding Point</key>
+    <string>The point at which a passenger is scheduled to embark on a flight of the boarding airline</string>
+    <key>Booking</key>
+    <string>Making the reservation (creating PNR and holding inventory) but not purchasing/ticketing (applying the payment).</string>
+    <key>Booking Airline</key>
+    <string>Refer to Booking Member</string>
+    <key>Booking Class</key>
+    <string>Refer to Reservation Booking Designator</string>
+    <key>Booking Member</key>
+    <string>The Member with which the passenger made his original reservations or with which additional reservations were made after commencement of the journey. Where a booking is made with, or through, or is handed over to a CRS, the CRS will be considered as the Booking Member</string>
+    <key>BS</key>
+    <string>Business Support</string>
+    <key>BSP</key>
+    <string>Billing and Settlement Plans</string>
+    <key>BUG</key>
+    <string>Big Ugly Grid (.com shopping table)</string>
+    <key>Bundles</key>
+    <string>When discussing Commerce Requirements, we should avoid using the term Bundles for Air.  This term should only be used when referring to Vacation Packages</string>
+    <key>Cabotage</key>
+    <string>The right to transport passengers between two points of a foreign country.
+        
+        Also known as 8th freedom as defined by the Chicago convention.</string>
+    <key>Cabotage</key>
+    <string>Carrier Sabotage. Occurs if an International airline carries domestic traffic.</string>
+    <key>Campaign</key>
+    <string>A marketing initiative with specific predefined offers, targets, and timelines to induce prospects or current customers to conduct transactions with Southwest.</string>
+    <key>Cancel</key>
+    <string>The function by which previously reserved seats are removed from a booking and the space is returned to the inventory of the airline system</string>
+    <key>Capacity</key>
+    <string>Number of seats available but depends upon the context.  A booking class may have a capacity which is less than the capacity of a cabin or equipment type</string>
+    <key>Card Verification Code or Card Verification Value - 2</key>
+    <string>This CSC (also known as a CCID or Credit Card ID) is often asked for by merchants to secure</string>
+    <key>MasterCard</key>
+    <string>Visa and Discover credit and debit cards have a 3-digit codeand is always the final group of numbers printed on the back signature panel of the card.  American Express cards have a 4-digit code printed on the front side of the card above the number</string>
+    <key>CARP</key>
+    <string>Customer Activity Repository
+        Database that provides near-real time/future booking info</string>
+    <key>Carrying Airline</key>
+    <string>Any airline on which the booking airline has requested space, on one or more of its flight, to be held for a passenger.
+        
+        Synonym:  Participating Airline</string>
+    <key>CASS</key>
+    <string>Cargo Accounts Settlement System</string>
+    <key>CAT 31</key>
+    <string>Reissue / exchange fare rules</string>
+    <key>CAT 33</key>
+    <string>Refund fare rules</string>
+    <key>CATTS</key>
+    <string>CATTS (Cargo Accounting, Tracking and Tracing System) is a point-of-sale application designed for the purpose of accepting, tracking and accounting for air cargo shipments by external customers.</string>
+    <key>CBO</key>
+    <string>Common Business Object</string>
+    <key>CBP</key>
+    <string>Bureau of Customs and Boarder Protection</string>
+    <key>CC</key>
+    <string>Credit Card</string>
+    <key>CEBS</key>
+    <string>Customer Experience Business Services
+        Middleware that links SWA front-ends to back-end reservation system (SAAS)</string>
+    <key>CERT</key>
+    <string>Loyalty Certificate?  Another currency in addition to points used to book award travel</string>
+    <key>CFM</key>
+    <string>Customer Funds Management</string>
+    <key>Change of Equipment</key>
+    <string>A scheduled change of aircraft, occurring one or more times en route, but identified by one airline designator/flight number between the station of origin and the station of destination.
+        
+        Example (See Depiction): Delta Flight 107 travels from point A to point B to point C. There is a change of equipment at point B, from a 727 aircraft to an L 15 aircraft. Although passengers must physically change aircraft, their flight number remains the same (DL 107) throughout the journey.
+        
+        Synonyms:  Change of Equipment</string>
+    <key>Change of Gauge</key>
+    <string>Refer to Change of Equipment</string>
+    <key>CI</key>
+    <string>Continuous Integration</string>
+    <key>CID</key>
+    <string>Card Identification Number ; Continuous Integrated Development</string>
+    <key>CIR</key>
+    <string>Critical Incident Review</string>
+    <key>City Pair</key>
+    <string>Combination of two city or airport codes representing the origin and destination of a flight leg, segment or routing.
+        
+        Synonyms:  O&amp;D, Market</string>
+    <key>CK</key>
+    <string>Check</string>
+    <key>Class</key>
+    <string>Section of seats on any particular flight.  A specific class code implies carriage in a particular compartment of an aircraft, with a corresponding standard of in-flight service.
+        
+        In recent years, system providers have used class codes, (known as reservation booking designators) to distinguish between different fare types and booking conditions such that a single compartment or cabin may contain passengers who have booked in many different fare classes.  Most reservation systems use a single alpha character to represent a class code, but in North America particularly, there is some use of two-letter class codes.</string>
+    <key>Class II</key>
+    <string>Any operation or portion of an en route operation is Class II
+        navigation if it takes place outside the officially designated
+        operational service volumes of International Civil Aviation
+        Organization (ICAO) standard ground-based navigational
+        aids (NAVAIDs), such as VHF omni-directional range
+        (VOR), VOR/distance measuring equipment (DME), and
+        non-directional beacon (NDB). Class II navigation is
+        dependent on the use of a Long Range Navigation System
+        (LRNS). An LRNS may be satellite-based (e.g., Global
+        Positioning System (GPS)), self contained (e.g., Inertial
+        Reference System (IRS)), or referenced to ground stations
+        (e.g., LORAN-C).</string>
+    <key>CLCS</key>
+    <string>Customer Loyalty and Communication Services</string>
+    <key>CM</key>
+    <string>Configuration Management</string>
+    <key>COB</key>
+    <string>Child On Board; Close Of Business</string>
+    <key>Codeshare</key>
+    <string>A marketing practice in which two or more airlines agree to share, for marketing purposes, the same airline designator used to identify carriers in the computer reservation systems. (4)
+        
+        Marketing space on an airline partner’s flight using your flight number (14)</string>
+    <key>Co-Host Airline (Carrier)</key>
+    <string>An airline whose schedules and availability are stored on a preferential basis in the system of another airline. A co-host arrangement may include additional features</string>
+    <key>Complexing Flight</key>
+    <string>Flight which is displayed and sold under a marketing flight number but with actual carriage on more than one operational flight number.  (1)
+        
+        Example (See Depiction):
+        Legs AD, BD and CD are each members (with Leg DE) of funnel flights ADE, BDE and ODE.
+        Legs AD and DE comprise Segment AE (ADE), and are identified by the member flight number DL 123.
+        Legs BD and DE comprise Segment BE (BDE), and are identified by the member flight number DL 456.
+        Legs CD and DE comprise Segment CE (ODE), and are identified by the member flight number DL 789.
+        Leg DE is not identified by flight number DL 456 when it is not a member of Segment BE (BDE).
+        Leg DE is not identified by flight number DL 789 when it is not a member of Segment CE (ODE). It continues to be identified as DL 123 when it is point-to-point from D to E.  (2)
+        
+        Note: A complexing flight may be built in either direction, from many legs into one segment (as in the above example), and/or from one leg into many segments.
+        
+        Synonyms:  Funnel Flight, Shared Flight,  Starburst Flight, W Flight,, and Y Flight.</string>
+    <key>Composite Flight</key>
+    <string>A flight composed of two or more member flights of any type, but which is identified with an airline designator/flight number combination different from any of its member flights.
+        
+        Example:  DL 6063, from A to C, is the composite flight comprised of the member flights DL 109, from A to B, and DL 373, from B to C.
+        
+        *On-line or interline</string>
+    <key>Configuration</key>
+    <string>A unique instance of an equipment type which denotes a variation from the default configuration of an aircraft</string>
+    <key>Confirmation and Receipt Email</key>
+    <string>Email for the purchaser that shows the amount of payment (actual amount for Air, Merchant Hotels and Gift Cards; estimated amount for Cars and Retail Hotels), method of payment information and reservation details such as dates, location, confirmation number.  The Confirmation Email is sent immediately after the reservation is booked.</string>
+    <key>Confirmation Number (Air)</key>
+    <string>Refer to PNR Address</string>
+    <key>Connecting Point</key>
+    <string>An intermediate point on a journey where passengers must exit an aircraft and return to an aircraft in order to complete their journey</string>
+    <key>Continuing Itinerary</key>
+    <string>All remaining segments or portions of an itinerary beyond any designated point or gap.</string>
+    <key>CORBA</key>
+    <string>Common Object Request Broker Architecture</string>
+    <key>Corporate Travel Arranger</key>
+    <string>A limited access CTM which may make reservations on behalf of SWABIZ Members or Travelers via a proxy booking</string>
+    <key>Corporate Travel Manager</key>
+    <string>An individual assigned to administer a SWABIZ company account and its related travelers.
+        
+        There are two levels of CTMs: Full Access users and Limited Access (a.k.a. Travel Arranger) users.
+        ·          Full Access users can make travel reservations for someone else and perform user maintenance on other users.
+        ·          Limited Access users may only make travel reservations for someone else
+        
+        Acronyms:  CTM</string>
+    <key>Coterminal</key>
+    <string>A station that has been defined by Marketing as a related to another station for the purposes of calculating fares</string>
+    <key>COTS</key>
+    <string>Commercial Off The Shelf</string>
+    <key>Coupon</key>
+    <string>When referring to discounts, a coupon is a method for delivering a promotion code.</string>
+    <key>CR</key>
+    <string>Change Request; Customer Relations</string>
+    <key>CR1</key>
+    <string>Commercial Release 1 (SWA-AirTran integration program)</string>
+    <key>Critical Incident</key>
+    <string>An operational incident that requires alteration of normal southwest.com activities.
+        
+        See also:  Flight In Trouble</string>
+    <key>Cross-Sell</key>
+    <string>Marketing communications designed to encourage potential customers to purchase complementary products.</string>
+    <key>CRS</key>
+    <string>Computer Reservation System
+        A computerized system containing information about schedules, availability, fares and related services, and through which reservations can be made and/or tickets issued,
+        and which makes some or all of these facilities available to subscribers</string>
+    <key>CRS Subscriber</key>
+    <string>A person or entity other than an airline using a CRS under contract from a CRS Supplier for the sale of air transportation products and/or other related services</string>
+    <key>CRS Supplier</key>
+    <string>Any entity and its affiliates that own in whole or in part a CRS</string>
+    <key>CS2</key>
+    <string>Customer Service Second Level / Customer Service Checkin System</string>
+    <key>CSA</key>
+    <string>Customer Service Agent</string>
+    <key>CSD</key>
+    <string>Central Support Desk</string>
+    <key>CTB</key>
+    <string>Critical To Business</string>
+    <key>CTD</key>
+    <string>Configuration Test and Deploy
+        SWA testing group that performs end-to-end testing</string>
+    <key>CUPPS</key>
+    <string>Common Use Passenger Processing System</string>
+    <key>CUSS</key>
+    <string>Common Use Self-Service</string>
+    <key>Customer</key>
+    <string>A registered user of MySouthwest who is not enrolled in Rapid Rewards.</string>
+    <key>CUTE</key>
+    <string>Common Use Terminal Equipment</string>
+    <key>CVV2</key>
+    <string>Card Verification Value</string>
+    <key>DASD</key>
+    <string>Direct Access Storage Device</string>
+    <key>Date effective</key>
+    <string>A term given to any component that can vary over time, like parameters for example.</string>
+    <key>Deal</key>
+    <string>A discounted product offering.  Most commonly used to refer to the “Deals” section on the New site.  Deals and Offers are used interchangeably.
+        
+        See also Offer.</string>
+    <key>DEI</key>
+    <string>Data Element Indicator. Used in SSIM files.</string>
+    <key>DEK</key>
+    <string>Data Encryption Key</string>
+    <key>Delivering Airline</key>
+    <string>The airline on whose flight a passenger will travel to an interline point, stopover point or gap.</string>
+    <key>Deplaning Point</key>
+    <string>The point at which the passenger is scheduled to disembark from a flight of the boarding airline.</string>
+    <key>Destination</key>
+    <string>Ultimate point of a Journey.</string>
+    <key>Destination Relevant Offers</key>
+    <string>Offers complementing the attributes (e.g. proximity, activities, themes, etc) of a specific location.
+        
+        See also Offer.</string>
+    <key>DEV</key>
+    <string>Development</string>
+    <key>Difference Between Legs, Stations, Flights, Scheduled Aircraft, Segment And Potential Routes</key>
+    <string>See Depiction</string>
+    <key>Ding Client Application</key>
+    <string>A desktop application that alerts customers to special offers available on select Southwest airfares.</string>
+    <key>Ding Headline</key>
+    <string>A statement in the DING! Application window that promote the current DING! Fares.  Hyperlinked to the DING! landing page.</string>
+    <key>Ding Landing Page</key>
+    <string>Webpage on southwest.com that lists available DING! fares and their preconditions.  Viewable after a customer clicks a DING! Headline.</string>
+    <key>Direct Connect</key>
+    <string>A direct connection between one system and another which does not involve any intermediary aggregators or GDS systems .</string>
+    <key>Discount</key>
+    <string>Reduction in price, most commonly achieved by reducing the cost to the customer by a fixed amount or a percentage off, but additional methods are under investigation</string>
+    <key>Domestic</key>
+    <string>Within a sovereign state (IATA country code).
+        
+        The proposed new definition would exclude travel between the US and Canada or within Scandinavia from the definition of domestic. The general consensus at the last meeting was that domestic would mean within any one IATA country code. A question arose as to whether or not the definition of domestic included territories. The participants agreed that travel from a sovereign state to one of its a territories would not be considered domestic if that territory has its own IATA country code. If a territory does not have its own IATA country code, then it would be considered a part of the sovereign state and would fall within the domestic definition.</string>
+    <key>DOW</key>
+    <string>Day of Week</string>
+    <key>DSN</key>
+    <string>Database Source Name</string>
+    <key>DST</key>
+    <string>Desktop Support Team / Delivery Suite Team</string>
+    <key>Duplicate Leg</key>
+    <string>A single leg that, for commercial/technical reasons, is displayed under more than one flight number by the operating carrier, or is displayed by a different airline
+        designator/flight number by an airline other than the operating carrier.</string>
+    <key>Duplicate Reservation</key>
+    <string>A condition which arises when two or more reservations are made for the same passenger(s), when it is evident the passenger(s) will be able to use only one. A request to change a reservation
+        which involves the holding of space on one flight pending confirmation of an alternative reservation, does not constitute a duplicate reservation</string>
+    <key>DVI</key>
+    <string>Pricing Tool? Checks pricing rules</string>
+    <key>DVT</key>
+    <string>Design Verification Test</string>
+    <key>EAS</key>
+    <string>Early Alert System</string>
+    <key>EBCDIC</key>
+    <string>Extended Binary Coded Decimal Interchange Code</string>
+    <key>EBS</key>
+    <string>Enterprise Business Services</string>
+    <key>EDIFACT</key>
+    <string>Electronic Data Interchange for Administration, Commerce &amp; Transportation</string>
+    <key>EDW</key>
+    <string>Enterprise Data Warehouse
+        Stores historic PNR data</string>
+    <key>EFS</key>
+    <string>Enterprise Fulfillment Services</string>
+    <key>EMD</key>
+    <string>Electronic Miscellaneous Document</string>
+    <key>EMD-A (Associated)</key>
+    <string>EMD that's associated with E-ticket coupon</string>
+    <key>EMD-S (Standalone)</key>
+    <string>EMD that's not associated with E-ticket coupon</string>
+    <key>EMP</key>
+    <string>Event Management Process</string>
+    <key>EMS</key>
+    <string>Enterprise Message Service</string>
+    <key>Equipment Type</key>
+    <string>The make and model of a given aircraft.
+        
+        Example: Boeing 737-500</string>
+    <key>ER</key>
+    <string>Enhancement Request</string>
+    <key>ESB</key>
+    <string>Enterprise Service Bus</string>
+    <key>ETL</key>
+    <string>Extract, Transform, and Load</string>
+    <key>Exchange Funds</key>
+    <string>Ticketing funds that must be transitioned from one ticket to another ticket during the course of a purchase or change of a reservation.</string>
+    <key>External Exchange</key>
+    <string>During an itinerary change, an external exchange fund is composed of flight documents not related to the original reservation which a Customer has requested to be applied to the
+        difference between the fare difference between the old and new reservation</string>
+    <key>Fare</key>
+    <string>Fare is the fee paid by a traveler allowing him or her to book a flight. This term should only be used when we are referring to the actual cost (i.e. lowest fares of the month, add charge to the fare).</string>
+    <key>Fare Basis Code</key>
+    <string>A fare basis code is a mechanism for identifying and applying rules to a specific fare.  Rules may include refundability, advance purchase requirements, stayovers, etc.</string>
+    <key>Fare Bundle</key>
+    <string>A collection of one or more FAREID’s into a marketable product for sale at the lowest allowable price.    Fare Product is the final marketed version of fare bundle which may imply purchase of
+        additional services or fees.
+        
+        Refer to Fare Product</string>
+    <key>Fare Bundles</key>
+    <string>When discussing Commerce Requirements, we should avoid using the term Fare Bundles and instead use the term Fare Products</string>
+    <key>Fare Designator</key>
+    <string>Refer to Promotion (Promo) Code</string>
+    <key>FARE ID</key>
+    <string>The combination of a Reservation Booking Designator and a PAX Type Code.
+        
+        Example: KADT indicates a FAREID in the K Booking Class and an Adult PAX Type</string>
+    <key>Fare Product</key>
+    <string>Air fare plus other Southwest provided features and services bundled together as one product (See Depiction)</string>
+    <key>Fare Product Bundles</key>
+    <string>When discussing Commerce Requirements, we should avoid using the term Fare Product Bundles and instead use the term Fare Products</string>
+    <key>Fare Saver</key>
+    <string>Refer to Promotion (Promo) Code</string>
+    <key>Fare Types</key>
+    <string>When discussing Commerce Requirements, we should avoid using the term Fare Types and instead use the term Fare Products</string>
+    <key>FEP</key>
+    <string>Flight Event Producer</string>
+    <key>FIDS</key>
+    <string>Fight Information Display System</string>
+    <key>FIM</key>
+    <string>Flight Information Message</string>
+    <key>Finalization</key>
+    <string>Process in which schedules or itineraries are validated against SWA Standard parameters.</string>
+    <key>Firming</key>
+    <string>A procedure whereby an airline, at a boarding point, contacts passengers holding reservations to ensure they actually intend to use the accommodation being held for them.</string>
+    <key>First Boarding Point</key>
+    <string>The point in a portion of an itinerary applicable to a given airline at which the passenger will commence travelling on the services of that airline. When the itinerary is changed, it is the
+        point in the revised routing at which the passenger will commence travelling on the airline’s services</string>
+    <key>FIT</key>
+    <string>Flight in Trouble
+        An operational incident and associated procedures to communicate with affected passengers, media, and relatives</string>
+    <key>FLAG</key>
+    <string>Flag Carrier – Airline Flag Operations – A Flag Carrier is defined by the FAA as any scheduled operation conducted by any person operating any turbojet powered airplanes, or airplanes having a passenger-seat configuration of more than 9 passenger seats, excluding each crew member seat, or airplanes having a payload capacity of more than 7,500 lb. at the following locations between any point within the U.S. or any territory or possession of the US respectively, or between any point within the U.S. and any point outside the U.S. or between any point outside the U.S. and another point outside the U.S.</string>
+    <key>FlexPricer</key>
+    <string>Amadeus Shopping Tool designed to show lowest fare available across applicable fare families.</string>
+    <key>FLIFO</key>
+    <string>Flight Information</string>
+    <key>Flight</key>
+    <string>The entire passage consisting of one or more flight legs, from leaving the airport of origin to arrival at the airport of final destination and operated under one flight number.</string>
+    <key>Flight Documents</key>
+    <string>A flight document is a grouping of the following payment types:  RTF, eTicket, and Ticketless Travel.</string>
+    <key>Flight in Trouble Lockdown</key>
+    <string>A critical incident to involving an aircraft that requires changes in the functionality and user experience of southwest.com and associated outbound communication channels such as Click 'N Save.</string>
+    <key>Flight Leg</key>
+    <string>A nonstop flight between two stations</string>
+    <key>Flight Number</key>
+    <string>The numerical designation or identification of a flight.</string>
+    <key>Flight Segment</key>
+    <string>One or more flight legs for a given flight number</string>
+    <key>Flight Segment Number</key>
+    <string>The flight segment number is used for change of gauge flights to indicate the segment within an origin and destination  where the flight changes aircraft.  For example, assuming a flight operates
+        LON PAR MAD BCN OPO and there is an aircraft change in MAD and a passenger is booked PAR OPO, segment one would be PAR MAD and segment two would be MAD OPO.</string>
+    <key>FOP</key>
+    <string>Form Of Payment</string>
+    <key>FQTV</key>
+    <string>Frequent traveler number as referenced in a PNR</string>
+    <key>Free Sale Agreement</key>
+    <string>A bilateral or multilateral agreement between Members, or between Members and CRSs which permits, in accordance with the terms of agreement, immediate confirmation of space
+        without the necessity of maintaining space availability information.</string>
+    <key>FTP</key>
+    <string>File Transfer Protocol</string>
+    <key>Fully Dated Schedule</key>
+    <string>? Schedule that contains dates for each flight.</string>
+    <key>Funnel Flight</key>
+    <string>A flight on a feeder airline that connects with another flight on a larger aircraft.</string>
+    <key>FYI</key>
+    <string>For Your Information</string>
+    <key>GAF</key>
+    <string>Get Available Funds</string>
+    <key>Gap</key>
+    <string>The part of an itinerary which involves transportation by a means other than by a scheduled air service: except the distance between two airports serving the same city does not constitute a gap</string>
+    <key>Gate Reader</key>
+    <string>System used to board passengers.  Integrates with Boarding Display Controllers to show boarding positions being served and marketing messages</string>
+    <key>Gateway</key>
+    <string>Last point of departure/first point of arrival within a geographic locale as specified below: There is an implied hierarchy in the following descriptions.
+        
+        ·          When traveling between Areas 1, 2, or 3, the last point of departure/first point of arrival in that area.
+        ·          When traveling between zones within an area, the last point of departure/first point of arrival in that zone.
+        ·          When traveling between countries within a zone, the last point of departure in one country and the first point of arrival in another country.
+        
+        NOTE: When fares cross multiple IATA Areas, e.g. NYC-BOM via PAR, (Area I to Area 3 via 2), only the departure from Area I (NYC) and the arrival in Area 3 (BOM) are considered the gateways.
+        The intermediate via points in Area 2 (PAR) are not gateways.</string>
+    <key>GDS</key>
+    <string>Global Distribution Systems. 4 Major: Amadeus, Galileo, Sabre, Worldspan.  See also: http://www.hotel</string>
+    <key>GENDEC</key>
+    <string>Government entry document</string>
+    <key>General Sales Agent</key>
+    <string>A person (including any individual, partnership, firm, association, company or corporation) who has been delegated authority in respect of passenger sales for the appointing airline,
+        either directly or through subcontraction.</string>
+    <key>GIDS</key>
+    <string>Gate Information Display System</string>
+    <key>Gift Card</key>
+    <string>Also known as a southwestgiftcard™.  A gift card is  an electronic form of payment marketed by Southwest and only available for purchase of Southwest air.</string>
+    <key>Global Distribution System</key>
+    <string>Worldwide computerized reservation network used as a single point of access for reserving airline seats, hotel rooms, rental cars, and other travel related items by travel agents,
+        online reservation sites, and large corporations.
+        
+        The premier GDS are Amadeus, Galileo, Sabre, and Worldspan owned and operated as joint ventures by major airlines, car rental firms, and hotel groups.
+        
+        Synonyms:  Automated reservation system (ARS), computerized reservation system (CRS).</string>
+    <key>Go Show</key>
+    <string>Refer to Standby</string>
+    <key>GOT</key>
+    <string>Ground Operations Training</string>
+    <key>GroundTime</key>
+    <string>Scheduled interval for the aircraft to be on ground. A ground time is not required, but when it is scheduled and defined, it may only occur between two flights. A ground time is not the same as a turn time or a thru time.</string>
+    <key>Group</key>
+    <string>When used in the Interline Reservation context, ten or more passengers, excluding infants, travelling together.
+        
+        At southwest, a group is currently defined as 10 or more people traveling on the same itinerary.  Southwest benefits for group travel currently include: (5)
+        
+        Name changes up to 48 hours before departure.
+        Group itineraries and individual names printed on tickets.
+        For every 40 people who travel on Southwest Airlines as part of your group, you will earn one free ticket eligible for use on your group's itinerary.</string>
+    <key>Group Name</key>
+    <string>A unique name assigned by the booking airline for the purpose of establishing identity of passengers travelling together over segments.</string>
+    <key>Guest</key>
+    <string>The person staying at a hotel.</string>
+    <key>HDQ</key>
+    <string>Headquarters</string>
+    <key>Hit</key>
+    <string>Each file sent to a browser by a web server is an individual hit.</string>
+    <key>Hosted Airline</key>
+    <string>An airline who utilizes the facilities of another system to process, on an inventory basis, reservations and other passenger related information.</string>
+    <key>IATA</key>
+    <string>International Air Transport Association</string>
+    <key>IBE</key>
+    <string>Internet Booking Engine</string>
+    <key>ICAO</key>
+    <string>International Civil Aviation Organization</string>
+    <key>ICS</key>
+    <string>International Code Share</string>
+    <key>IDE</key>
+    <string>Integrated Development Environment</string>
+    <key>IDL</key>
+    <string>Interface Definition Language</string>
+    <key>IET Hub</key>
+    <string>Interline E-ticket Hub</string>
+    <key>IM</key>
+    <string>Incident Management</string>
+    <key>IMCT</key>
+    <string>Individual Minimum Connect Time
+        This is a connections file. This goes to SP, RM, SAAS, SWA.com, Crew Mgmt/CMS and to GDS.  An IMCT is not required if we allow GDS to do dynamic generation but for now SWA wants control of connections so we provide an IMCT file</string>
+    <key>Inadmissible Passenger</key>
+    <string>A passenger who has arrived in a country on a flight, but is refused admission by the authorities of that country.</string>
+    <key>Incapacitated Passenger</key>
+    <string>A passenger whose physical, medical, or mental condition requires individual attention (on embarking, disembarking, during flight, in an emergency evacuation or during ground handling)
+        which is not normally extended to other passengers.</string>
+    <key>Interchange Flight</key>
+    <string>A flight that is operated by two or more airlines using the same aircraft, which gives the passengers the benefit of a through-service from the boarding point to the deplaning point.</string>
+    <key>Interline</key>
+    <string>Interline is ticketing space on an airline partner’s flight using their flight number</string>
+    <key>Interline Point</key>
+    <string>Any point in an itinerary at which the passenger is to change from a flight of one airline to a flight of another, whether a connection or stopover is involved. All airports through which
+        a city or adjacent city are served by an airline are considered as a single interline point.</string>
+    <key>Internal Exchange</key>
+    <string>During an itinerary change, an internal exchange fund is composed of the flight documents of the original reservation which must be applied to the new reservation.</string>
+    <key>International</key>
+    <string>Travel between any two or more sovereign states (IATA country codes).</string>
+    <key>Inventory</key>
+    <string>In an airline system, the count of space available for sale, broken down by flight, date, class, leg, segment, and possible other parameters.</string>
+    <key>INVOL</key>
+    <string>Involuntary Reroute</string>
+    <key>IOR</key>
+    <string>Interoperable Object Reference</string>
+    <key>IPDS</key>
+    <string>International Passenger Data Store</string>
+    <key>ITEST</key>
+    <string>Integration Test</string>
+    <key>Itinerary</key>
+    <string>The sum of all portions of a passenger’s journey, from the beginning to the end, even though separated by a gap or gaps.</string>
+    <key>Itinerary Email</key>
+    <string>Email that has the dates, locations and confirmation numbers for all portions of a passenger’s journey.  It does not include payment information so that it can be distributed to multiple parties.</string>
+    <key>ITOPS</key>
+    <string>Information Technology Operations [dictionary]</string>
+    <key>IVR</key>
+    <string>Interactive Voice Response</string>
+    <key>JCL</key>
+    <string>Job Control Language</string>
+    <key>JDO</key>
+    <string>Java Data Objects</string>
+    <key>JFE</key>
+    <string>Journey Front-End (Amadeus Airport UI)
+        The tool used by ticket and gate agents to operate flights.</string>
+    <key>JMS</key>
+    <string>Java Messaging Service</string>
+    <key>Journey</key>
+    <string>Travel between an airport/city where travel commences and an airport/city where travel ultimately terminates.  A journey is one or more segments.
+        Synonym: Trip</string>
+    <key>JRF</key>
+    <string>Job Request Form</string>
+    <key>JSC</key>
+    <string>Job Scheduling Console</string>
+    <key>KEK</key>
+    <string>Key Encryption Key</string>
+    <key>KM</key>
+    <string>Knowledge Management</string>
+    <key>Late Cancellation</key>
+    <string>A reservation that is cancelled too close to the scheduled departure time of the flight to allow the airline to effectively offer the space that becomes available for resale.</string>
+    <key>LDAP</key>
+    <string>Lightweight Directory Access Protocol</string>
+    <key>LE</key>
+    <string>Leaving Early</string>
+    <key>Leg</key>
+    <string>Two consecutive airports/cities on any given flight. (PADIS. EDIFACT Implementation Guide for Reservation Messages)
+        
+        A single non-stop flight segment between two stations. (Scott Lake)</string>
+    <key>Leg Aircraft</key>
+    <string>Association between an aircraft and a leg.</string>
+    <key>Line of Flight</key>
+    <string>Collection of legs operated by one aircraft within one particular day.</string>
+    <key>LNIATA</key>
+    <string>Line / Interface Adapter / Terminal Address. This is a 3-byte terminal address, usually seen as a 6-character hexadecimal field, such as</string>
+    <key>LOD</key>
+    <string>Loyalty Origin Destination</string>
+    <key>LTD</key>
+    <string>Less Than Daily</string>
+    <key>LUV</key>
+    <string>stock symbol for Southwest Airlines</string>
+    <key>LUV Voucher</key>
+    <string>An electronic form of payment..  Usually provided for promotions, comps, or to provide goodwill to customers during irregular operations.</string>
+    <key>Market</key>
+    <string>Refer to City Pair</string>
+    <key>Market</key>
+    <string>A pair of cities or stations</string>
+    <key>Marketed Carrier</key>
+    <string>Refer to Scheduled Carrier</string>
+    <key>Married Segments</key>
+    <string>Identifies connecting segments which comprise a trip to be actioned as a matched set.</string>
+    <key>Maximum Connect Time</key>
+    <string>Maximum time determined by the business for a passenger to be able to make a connection between two legs or segments at a given airport.</string>
+    <key>MCO</key>
+    <string>Miscellaneous Chargers Order
+        Any accountable document issued by an airline requesting issue of an appropriate Passenger Ticket and Baggage Check or revision of services to the person named in such document,
+        i.e. PTA transaction.</string>
+    <key>MCT</key>
+    <string>Minimum connect time
+        Minimum time determined by the business for a passenger to be able to make a connection between two legs or segments at a given airport.</string>
+    <key>MEL</key>
+    <string>Minimum Equipment List</string>
+    <key>Member</key>
+    <string>A registered user of MySouthwest that is also enrolled in Rapid Rewards..</string>
+    <key>Merchandising</key>
+    <string>Marketing communications designed to encourage customer purchase.  Includes the presentation of offers, up-sells, and cross-sells</string>
+    <key>Minimum Booking Time</key>
+    <string>The minimum amount of time allowed between the departure time of a trip and the time to make a reservation on that trip.</string>
+    <key>Misconnection</key>
+    <string>A passenger who, due to the late arrival or non-operation of his/her original delivering flight, arrives at the interline point by his original delivering flight, an alternative flight or
+        surface transportation, too late to board his/her original receiving flight</string>
+    <key>MQ</key>
+    <string>Message Queue</string>
+    <key>MUFN/Muffin</key>
+    <string>Maintain Unique Flight Number is an application for generating flight numbers</string>
+    <key>Multi-Area City Code (MAC)</key>
+    <string>An IATA Airport Code which groups one or more other airports to allow for pricing at one or more stations.
+        
+        Example: CHI is an MAC Code for the Chicago Region which may, upon searching for availability, return routes that utilize ORD or MDW as an airproat.  In the context of
+        round-trip pricing, ORD or MDW may be suitable return stations for round-trip pricing that is available for CHI.</string>
+    <key>Multipax</key>
+    <string>An itinerary that includes multiple passenger types.</string>
+    <key>MX</key>
+    <string>Maintenance</string>
+    <key>NAVS</key>
+    <string>Numeric Availability</string>
+    <key>NCP</key>
+    <string>Network / Computer / Production</string>
+    <key>Near International</key>
+    <string>Defined as Mexico, Caribbean, Canada</string>
+    <key>Non Flight Documents</key>
+    <string>A non-flight document is a grouping of payments types including LUV Vouchers and southwestgiftcards™.</string>
+    <key>Non-Carrying Airline</key>
+    <string>An airline who, although handling a passenger’s reservation(s), will not participate in the itinerary.
+        
+        Synonym:  Non-participating airline</string>
+    <key>Non-operational Flight</key>
+    <string>Refer to Operational Flight</string>
+    <key>Non-participating airline</key>
+    <string>Refer to Non-Carrying Airline</string>
+    <key>NRT</key>
+    <string>Near Real Time</string>
+    <key>NUC</key>
+    <string>Neutral Unit of Currency</string>
+    <key>O&amp;D</key>
+    <string>This is the Origin and Destination of a passenger, which may include one or more connections</string>
+    <key>O/D Based</key>
+    <string>Origin/Destination based</string>
+    <key>OA / OAL</key>
+    <string>Other Airline</string>
+    <key>OAG</key>
+    <string>Official Airline Guide
+        Publisher of airline schedules and Tariff Information in both paper and electronic form.</string>
+    <key>OASYS</key>
+    <string>OASYS is the front end for the OTIS database. It is a web application that is used to audit flight data in OTIS and verify that it passes Southwest Airlines Audit Rules for time, fuel, PAX, etc.  When a Ground Ops Agent completes a flight in OTIS, the data is picked up by the OASYS process. If the data associated to the flight passes audit, then the flight data is passed on to the Flight Tracking System. If the data does not pass audit rules, then the flight is displayed on the OASYS screen and the FLIFO Agent at headquarters can validate the data and perform a manual audit on the flight data. Once the FLIFO agent saves the changes to the flight data, it is sent to Flight Tracking.</string>
+    <key>OB</key>
+    <string>Outbound</string>
+    <key>OCC</key>
+    <string>Operations Coordination Center</string>
+    <key>OCN</key>
+    <string>Online Confirmation Number</string>
+    <key>OFEP</key>
+    <string>Open Front End Processing - SAAS communication protocol</string>
+    <key>Offer</key>
+    <string>The terms and conditions (e.g. price, quantity, booking restrictions, etc) under which a product is made available to potential customers.  Largely used to refer to a discounted product, as shown in the “Special Offers” section of the Classic site.</string>
+    <key>On Time Performance</key>
+    <string>A requirement by some regulatory authorities to include an indicator of the average punctuality performance of the airline operating flights referred to in an availability display.
+        This is usually represented as a single digit giving a truncated percentage of flights arriving on-time.</string>
+    <key>Online Connection</key>
+    <string>A change of planes that does not involve a change of airlines.</string>
+    <key>OOO</key>
+    <string>Out Of Office</string>
+    <key>Open Jaw</key>
+    <string>Passenger returns from a city other than the one he or she arrived at, or in which the final destination is not the same as the original departure city. The trip between these two cities
+        is then made over land, sea or with a separately booked flight.
+        
+        Example:
+        Trip 1: 11-NOV: HOU/DAL (Houston to Dallas)
+        Trip 2: 15-NOV: PHL/SFO (Philadelphia to San Francisco)</string>
+    <key>Operating Carrier</key>
+    <string>The carrier which will perform the transportation service.</string>
+    <key>Operational Flight</key>
+    <string>A flight which is identified to air traffic control authorities by its airline designator and flight number. Any other airline designators and/or flight numbers associated with the same flight are
+        considered to be non-operational flights.</string>
+    <key>ORB</key>
+    <string>Object Request Broker</string>
+    <key>Originating Airline</key>
+    <string>The airline transporting the passenger over the first portion of an itinerary.</string>
+    <key>Origination</key>
+    <string>Starting place of the journey as shown on the ticket.</string>
+    <key>Origination and Destination</key>
+    <string>Refer to City Pair
+        
+        Acronym:  O&amp;D</string>
+    <key>OSDS</key>
+    <string>Operational Schedule Data Store</string>
+    <key>OSI</key>
+    <string>Other Service Information
+        Element in a PNR which enables information of a general nature to be passed between systems.</string>
+    <key>OTIS</key>
+    <string>Operation Terminal Information System
+        Provides for input and monitoring of realtime flight information. Gives the Stations a view of that input and provides downline information throughout the system.
+        OTIS is a thick client installed locally that provides an operational view of all flights. It allows input for calculating weight and balance and allows Agents to print other Required to Fly documentation provided to Pilots before Aircraft can legally depart.</string>
+    <key>OTIS ATC</key>
+    <string>A web application built on top of OTIS Webview that provides view-only access to operational data in the OTIS database for BWI ATC in the BWI Ground Control Tower. Provides a subset of functionality from OTIS Webview. ATC View is a separate web application that runs outside SWA's intranet on xlpeip03/04: http://otisatcview.swalife.com/</string>
+    <key>OTIS Webview</key>
+    <string>A web application that provides view-only access to operational data in the OTIS database. Provides a subset of information that the OTIS application provides.</string>
+    <key>Overbooking</key>
+    <string>The situation which exists when more seats have been reserved on a flight than are allowable for sale.</string>
+    <key>Oversale</key>
+    <string>The situation which occurs when a passenger, who has a valid ticket indicating a firm reservation or of whom the airline has a positive reservations record, is not accommodated when
+        the flight departs, or is carried but not in the accommodation reserved</string>
+    <key>Overwater</key>
+    <string>Generally, when crossing a water mass within Area 1:
+        
+        ·          The portion of travel from the last point of departure within the continental US/Canada to the first point of
+        arrival outside continental US/Canada; and/or
+        ·          The last point of departure outside the continental US/Canada to the first point of arrival within the continental US/Canada.
+        
+        This definition applies specifically for the following points:
+        
+        ·          Between continental US/CA and Hawaii
+        ·          Between continental US/CA and Alaska
+        ·          Between US/CA/Hawaii/Alaska/and Puerto Rico and Virgin Islands
+        ·          Between Alaska and Hawaii
+        
+        May also be used for other Geographic points to address Significant Portion of Travel</string>
+    <key>Page View</key>
+    <string>A page view is each time a visitor views a webpage on your site, irrespective of how many hits are generated. Pages are comprised of files. Every image in a page is a separate file. When a visitor looks at a page (i.e. a page view), they may see numerous images, graphics, pictures etc. and generate multiple hits.</string>
+    <key>Page Visit</key>
+    <string>A visit happens when someone or something (robot) visits your site. It consists of one or more page views/ hits. One visitor can have many visits to your site.  The duration of a visit is defined by the tracking software typically as a session with a predefined length of expiration.</string>
+    <key>PAM</key>
+    <string>Privileged Access Model</string>
+    <key>PARIS (SIRAX)</key>
+    <string>A financial reporting application</string>
+    <key>Participating Airline</key>
+    <string>Refer to Carrying Airline</string>
+    <key>Passenger</key>
+    <string>The individual designated as a liability in the contract of carriage.</string>
+    <key>Passenger Type</key>
+    <string>A unique category to define a passenger based off of certain characteristics such as age, job status, or ticket type (See Depiction)
+        Acronym: PAX Type</string>
+    <key>Passenger, Must Ride</key>
+    <string>A non-revenue passenger with a reservation who may not be bumped in the case of an oversale.</string>
+    <key>Passenger, No Record</key>
+    <string>A passenger who presents a ticket indicating reserved space but the boarding airline has no record of ever having confirmed, or received a reservation, for that space</string>
+    <key>Passenger, No Show</key>
+    <string>A passenger who fails to join a flight on which he/she holds reserved space for reasons other than misconnections</string>
+    <key>Passenger, Non Revenue</key>
+    <string>An individual on a flight which did not purchase a fare product but is still allowed to fly.</string>
+    <key>Passenger, Positive Space</key>
+    <string>A non-revenue passenger with a reservation who may be bumped in the case of an oversale.</string>
+    <key>Passenger, Space Available</key>
+    <string>A non-revenue passenger, without a reservation, flying standby for a specific leg.</string>
+    <key>PAX</key>
+    <string>Passenger</string>
+    <key>PB</key>
+    <string>Passengers Boarded</string>
+    <key>PBR</key>
+    <string>Plan/Build/Run</string>
+    <key>PCI</key>
+    <string>Payment Card Industry</string>
+    <key>PCI DSS</key>
+    <string>Payment Card Industry Data Security Standard</string>
+    <key>PCS</key>
+    <string>Proactive Customer Service</string>
+    <key>PDC</key>
+    <string>Primary Data Center</string>
+    <key>PERT</key>
+    <string>Program Evaluation and Review Technique</string>
+    <key>PFP</key>
+    <string>Past Flight Points</string>
+    <key>PFS</key>
+    <string>Post Flight Status</string>
+    <key>PLY</key>
+    <string>Profit Line Yield</string>
+    <key>PNL</key>
+    <string>Passenger Name List</string>
+    <key>PNR</key>
+    <string>Passenger Name Record
+        A record of each passenger’s travel requirements which contains all information necessary to enable reservations to be processed and controlled by the booking and participating airlines. Most airlines store their PNR's in a virtual</string>
+    <key>PNR Address</key>
+    <string>A term used to designate an alpha-numeric code referring to a specific area in the memory of an automated reservations system in which a given passenger name record is stored.
+        Synonyms: Air Confirmation Number, Record Locator</string>
+    <key>POA</key>
+    <string>Portable Object Adapter</string>
+    <key>Point to Point</key>
+    <string>A term used for travel on a set of legs between an origination and destination involving one or more intermediary stations.  A point to point fare is priced differently than a thru fare and may
+        not be part of our published timetable. Ex:  DAL to IND has a fare product available for $229 with an actual routing of DAL-MCI-IND.  A point to point trip would involve pricing the DAL - MCI
+        leg separately from the MCI - IND leg, rather than as a thru fare.</string>
+    <key>Portion</key>
+    <string>Within an itinerary, a single segment or consecutive segments (including any gaps) on the services of any one airline.</string>
+    <key>Pre-Flight Check</key>
+    <string>An internal procedure whereby an airline undertakes checks of its reservations records to eliminate duplicate reservations incorrect recordings or other errors.</string>
+    <key>Premium Product</key>
+    <string>Refer to Advanced Reporting Services</string>
+    <key>PRG</key>
+    <string>Precise Resource Group</string>
+    <key>Prime Host Airline (Carrier)</key>
+    <string>The airline which controls the system in which other airlines are hosted</string>
+    <key>PRISM</key>
+    <string>Passenger Revenue Information System</string>
+    <key>PROD</key>
+    <string>Production</string>
+    <key>Product Bundles</key>
+    <string>When discussing Commerce Requirements, we should avoid using the term Product Bundles for Air.  This term should only be used when referring to Vacation Packages</string>
+    <key>Promotion</key>
+    <string>The marketing communications designed to communicate Offers and Deals to potential customers.
+        
+        See also Merchandising.</string>
+    <key>Promotion (Promo) Code</key>
+    <string>A code the Customer enters to receive a discount.  The Promotion Code is used by southwest.com to translate into a SAAS ticket designator.</string>
+    <key>PROS</key>
+    <string>Revenue Management reporting system that forecasts sales / inventory?</string>
+    <key>Protecting Reservations</key>
+    <string>A tentative reservation on an airline, other than the one originally preferred by the passenger, which is subject either to cancellation, or change to a definite reservation, on the
+        demand of the airline holding the tentative reservation</string>
+    <key>Proxy Booking</key>
+    <string>A booking performed in SWABIZ for a SWABIZ Traveler, SWABIZ Member, or SWABIZ Anonymous User  while logged in as a SWABIZ CTM.</string>
+    <key>PSDS</key>
+    <string>Published Schedule Data Store, an application that distributes to downline systems</string>
+    <key>PTA</key>
+    <string>Prepaid Travel Advice</string>
+    <key>Purchaser</key>
+    <string>The individual who purchased a product.</string>
+    <key>QA</key>
+    <string>Quality Assurance</string>
+    <key>QB</key>
+    <string>Quick Build</string>
+    <key>QBOM</key>
+    <string>A southwest.com concept - short for Quick Booking Module</string>
+    <key>QIB</key>
+    <string>Quality Improvement Buffer parameter values</string>
+    <key>QIK</key>
+    <string>Qantas Intelligent Keypad</string>
+    <key>QPX</key>
+    <string>An airline pricing system created by ITA software.  SWA uses this system to get prices without hitting SAAS (since there is a cost associated with each SAAS transaction)</string>
+    <key>QSI</key>
+    <string>Quality of Service Indicator. Unit of service in Traffic Forecaster.</string>
+    <key>Quote Availability Agreement</key>
+    <string>A bilateral or multilateral agreement between airlines which permits each signatory to book another airline’s space by checking the availability of the required flight through a local
+        or toll-free telephone call, then sending an appropriate reservations message to the airline concerned</string>
+    <key>Rapid Reward Credits</key>
+    <string>Credits received for flying a Southwest flight or for booking certain products through southwest.com. Customers can receive Full, Bonus or Partial credits depending on the product purchased or a special offer</string>
+    <key>Rapid Reward Points</key>
+    <string>Term should not be used in discussing Leapfrog requirements until further information is provided regarding RR 2.0.</string>
+    <key>Receipt, Confirmation</key>
+    <string>Details of a passenger’s itinerary including purchase details.</string>
+    <key>Receipt, Itinerary</key>
+    <string>Detilas of a passenger’s itinerary not including purchase details.</string>
+    <key>Receiving Airline</key>
+    <string>The airline on whose flight a passenger is to travel from an interline point or gap.</string>
+    <key>Reconfirmation</key>
+    <string>A procedure used by some airlines whereby passengers, under certain given circumstances, are required to advise those airlines of their intention to use the space reserved</string>
+    <key>Record Locator</key>
+    <string>Refer to PNR Address</string>
+    <key>Reduce</key>
+    <string>Function to return part of the booked inventory in a PNR, canceling some, but not all passengers in a PNR.</string>
+    <key>Reservation Booking Designator</key>
+    <string>The code used in reservations transactions to identify a class. Reservation Booking Designators are commonly categorized by one letter codes, such as Y, M, or N but some airlines may utilize a two-letter code. For example, a booking class of M is for
+        promotional fares, and its availability is limited to a finite number below the capacity of the aircraft (See Depiction)
+        Synonyms:  Booking Class, Fare Class
+        Acronym: RBD</string>
+    <key>RFO</key>
+    <string>Required For Operations</string>
+    <key>RFS</key>
+    <string>Request For Service</string>
+    <key>RIS</key>
+    <string>Required Infrastructure &amp; Services</string>
+    <key>ROC</key>
+    <string>Remote Operating Center</string>
+    <key>RON</key>
+    <string>Remain Over Night</string>
+    <key>Round Robin Flight</key>
+    <string>A flight that has a departure and arrival at the same station. For example: A</string>
+    <key>Route</key>
+    <string>The collection of legs that comprise a trip from an origination to a destination.</string>
+    <key>Route</key>
+    <string>Collection of flights for a given aircraft type. Not tied to a given tail number.</string>
+    <key>RR</key>
+    <string>Rapid Rewards</string>
+    <key>RSR</key>
+    <string>Reservation System Replacement</string>
+    <key>RTF</key>
+    <string>Residual Travel Funds
+        Funds that are available after a downgrade exchange when changing a reservation.  These funds must be accounted for via transfer to another fund type in order to allow the customer access to these funds.  Most often, this occurs via transfer to a ticketless travel fund, eTicket fund, or payment to a credit card.  An RTF is an internal payment type and is not visible to the end Customer.</string>
+    <key>RTF</key>
+    <string>Required To Fly</string>
+    <key>Rule 85</key>
+    <string>Rule 85 is the term used in reference to Article 85 of the Contract of Carriage. It is the reaccommodation plan used when a specific flight is:
+        
+        -Delayed more than 15 minutes
+        -Cancelled
+        -Diverted and the Customers were not advised of the possible diversion
+        
+        Under Rule 85:
+        
+        Transport the Customer at no additional charge on our next flight(s) on which space is available to the intended destination (or point of origin) in accordance with SWA reaccommodation practices.
+        
+        If the Customer requests a refund, provide a refund of the unused portion of the ticket, in accordance with Rule 90, regardless of the fare restrictions.
+        
+        NOTE: If the Customer opts to rebook for a later time rather than take the next available flight or request a refund, follow the 14-Day Reaccommodation Guidelines.
+        
+        Rule 85 does not allow you to:
+        
+        -Waive fare restrictions simply to allow Customers to travel on earlier flights.
+        
+        -Reaccommodate Customers in a missed flight situation who arrive at the airport within two hours after their scheduled departure time.
+        
+        Station Leadership can apply Rule 85 on a local basis during irregular operations or when there is advance notice that a flight has been cancelled. Station Leadership will contact the Customer Service Coordinator (CSC), who will consult with Dispatch and ensure that the information is added to the Dispatch Bulletin in the Direct Reference System (G/BUL/DIS/today's date). The CSC is also responsible for</string>
+    <key>Rule 90,</key>
+    <string>##2##</string>
+    <key>At the Customer's request</key>
+    <string>we will refund the value of the unused portion of the ticket to the original form of payment or provide credit for the value of the unused portion of the ticket via a Southwest LUV Voucher.</string>
+    <key>SAAS,SABRE Automated Airline System
+        SAAS ,Southwest Airlines Reservation System (Sabre Automated Airline System)
+        SABRE,Semi-Automated Business &amp; Research Environment
+        SAPM,Shared Account Password Management
+        SAT,Software Acceptance Testing
+        SAT ,Centralized Test Center
+        SBS,SAAS Business Services
+        Schedule,Timetable of segments that is versioned with effective start and end dates.
+        Schedule ,Contains several routes for a given date range
+        Schedule Change,</key>
+    <string>flight number</string>
+    <key>Schedule Distribution</key>
+    <string>Process of sending schedules to other systems within Southwest. This is done for finalized schedules only.</string>
+    <key>Scheduled Air Service</key>
+    <string>A service offered by an airline which is displayed in an official airline guide, has a two-character or three-letter airline designator, and operates between points having three-letter city/airport codes.</string>
+    <key>Scheduled Carrier</key>
+    <string>The carrier under which the transportation service is marketed or sold.
+        Synonym:  Marketed Carrier</string>
+    <key>SCM</key>
+    <string>Software Configuration Management</string>
+    <key>SCOUT</key>
+    <string>System that routes planes for maintenance</string>
+    <key>SDC</key>
+    <string>Secondary Data Center</string>
+    <key>SDK</key>
+    <string>Software Development Kit</string>
+    <key>Seamless Connectivity</key>
+    <string>Interactive conversation between systems utilizing one or more approved message formats, such as EDIFACT Standards as adopted by the Industry under PADIS Board procedures.</string>
+    <key>Seamless Connectivity Link</key>
+    <string>Any link (direct, indirect, switched, virtual, on-demand) via any path, media or technique which is capable of providing Seamless Connectivity, as defined above. No limit an communications path, media, or technique is intended or implied.</string>
+    <key>Search,  Deal</key>
+    <string>Deal Search is a type of contextual search where the context is deal or deal packages</string>
+    <key>Search,  Product</key>
+    <string>Product search is a type of contextual search where the context is product or product type</string>
+    <key>Search, Contextual</key>
+    <string>Contextual Search is a type of site search that is constrained by context (i.e. a sub-site or content type).  For example, when searching for deals the search is constrained to only look for deals.</string>
+    <key>Search, Keywod</key>
+    <string>Text based search where user enters search criteria into text entry box.
+        
+        The textual search criteria can be usernames, plain text (a single word or phrase), the name of a product (or product type (e.g. ipods)), airport code, etc).</string>
+    <key>Search, Parametric</key>
+    <string>Parametric search is a type of search that allows for user filtering (e.g. Flight to Vegas under $200).  This will allow the user to search the site based on text search that is fine tuned based on constraints (e.g. date created, product type, price, etc).</string>
+    <key>Seat Assignment</key>
+    <string>A specific seat and row number reserved or allocated for a specific passenger.</string>
+    <key>Seat Map</key>
+    <string>Display which indicates availability status and or characteristics of a specific seats for a given flight/date.  This will typically contain information about class compartments, location of movie screens, smoking divisions, as well as, an indication of which seats have been reserved assigned/advanced boarding pass issued and which are still available.</string>
+    <key>Sector</key>
+    <string>Portion of a journey covered by a single flight coupon. Same as segment, but used in International tariffs</string>
+    <key>Segment</key>
+    <string>A segment is one or more legs on the same flight(same flight number and same VCR). Suppose you have a flight that flies LAX-HNL-SYD, then LAX-SYD would be a segment and this has 2 legs ; LAX-HNL and HNL-SYD.</string>
+    <key>Sell and Report Agreement</key>
+    <string>A bilateral or multilateral agreement between Members, or between Members and CRSs, which requires signatories to exchange and maintain information relative to the availability of space on selected flights, and between specified points. It requires each signatory, upon receipt of a request for reservations on the flight(s) of another signatory, to advise the person requesting the reservation the known availability, and under the terms of the agreement report the transaction to the airline, indicating the action to be taken in accordance with the known availability.</string>
+    <key>Service</key>
+    <string>A bundling of one or more Flight Legs into a product that can be marketed and sold to a Customer
+        
+        See also: Route</string>
+    <key>Service, Connecting</key>
+    <string>A type of service during which the passenger will be required to change aircraft at one or more intermediate stations before reaching the destination.</string>
+    <key>Service, Direct</key>
+    <string>A type of service during which the Passenger will not be required to change aircraft, although the aircraft is scheduled to stop at one or more intermediate locations before reaching the passenger's destination.
+        
+        See also: Thru</string>
+    <key>Service, Non-Stop</key>
+    <string>Flight which connects a board point and an off point in a single leg without any intermediate landings. (PADIS.  EDIFACT Implementation Guide for Reservation Messages)
+        
+        A type of service during which the aircraft is not scheduled to make any intermediate stops between the origin and destination stations. (Scott Lake)</string>
+    <key>SET</key>
+    <string>Sabre Electronic Ticketing
+        A system for ticketing passengers for air travel developed by Sabre</string>
+    <key>SGS</key>
+    <string>Southwest Gateway Services</string>
+    <key>Shared Airline Designator</key>
+    <string>A designator used when an airline holds out, by means of an airline designator code published in industry accepted methods such as printed Airline Guides and/or SCIP/SSIM transmittals that it is providing transportation and the flight is operated by another carrier on its schedule</string>
+    <key>Shared Flight</key>
+    <string>Refer to Complexing Flight</string>
+    <key>SIPP</key>
+    <string>Standard Interline Passenger Procedures</string>
+    <key>Site, Black State</key>
+    <string>A southwest.com state during a Critical Incident/FIT Event in which following states have changed...
+        
+        -An intermediate page is displayed
+        -The remainder of southwest.com is not accessible
+        -Suspension of the delivery of the following e-mail lists: Click 'N Save, Rapid Rewards Email Updates, and SWABIZ CTM E-Mails
+        -Suspension of the delivery of DING! headlines</string>
+    <key>Site, Green State</key>
+    <string>The normal operating state of southwest.com</string>
+    <key>Site, Orange State</key>
+    <string>A southwest.com state during a Critical Incident/FIT Event in which following states have changed...
+        
+        -Hero Shot is removed
+        -Ads are removed</string>
+    <key>Site, Red State</key>
+    <string>A southwest.com state during a Critical Incident/FIT Event in which following states have changed...
+        
+        -An intermediate page is displayed with links to the homepage and/or more information
+        -Suspension of the delivery of the following e-mail lists: Click 'N Save, Rapid Rewards Email Updates, and SWABIZ CTM E-Mails
+        -Suspension of the delivery of DING! headlines</string>
+    <key>Site, Yellow State</key>
+    <string>A southwest.com state during a Critical Incident/FIT Event in which following states have changed...
+        
+        -Hero Shot is
+        -Ads are removed"</string>
+    <key>SKD</key>
+    <string>Scheduled Departure Time</string>
+    <key>SLA</key>
+    <string>Service Level Agreement</string>
+    <key>SLV</key>
+    <string>Southwest LUV Voucher</string>
+    <key>SLVIA</key>
+    <string>Southwest LUV Voucher Issuance Application</string>
+    <key>SME</key>
+    <string>Subject Matter Expert</string>
+    <key>SOA</key>
+    <string>Service Oriented Architecture</string>
+    <key>SOD</key>
+    <string>Superintendant On Duty</string>
+    <key>SODA</key>
+    <string>Southwest Operational Disruption Accommodations
+        SODA gives our Employees the guidelines and flexibility to assist Customers in the event of impending situations that are not caused by our failure to operate as scheduled and that may or may not affect our operation (e.g., hurricane forecasted to hit a certain area, forest fires requiring evacuation, etc.). SODA does not provide an option for a refund.
+        
+        If a Customer is traveling within 14 days of the original day of travel, he/she may be confirmed in the original class of service; may be overbooked in the original class of service (if Y seats are available); or may travel standby if a seat cannot be confirmed.
+        
+        If the Customer is traveling more than 14 days following the original travel date, he/she may be confirmed in the original class of service (only if the same class of service is still available). If the fare has changed in the original class of service, the Customer must pay the difference in fare. Standby requires an upgrade to the Y fare. Overbooking in the original class of service (even if Y is available) is not permitted.</string>
+    <key>Sold Message</key>
+    <string>The report of a sale made under a Sell and Report, Freesale or Quote Availability Agreement</string>
+    <key>SOS</key>
+    <string>Source Of Support</string>
+    <key>SOX</key>
+    <string>Sarbanes-Oxley Act</string>
+    <key>Space Available Listing</key>
+    <string>A non-revenue list maintained for a specific journey which allows space-available passengers to indicate their intention and maintain a record of their intention to fly standby for that journey</string>
+    <key>SPN</key>
+    <string>Schedule Planning Network</string>
+    <key>SR</key>
+    <string>Service Request</string>
+    <key>SSIM</key>
+    <string>Standard Schedules Information Manual (IATA schedule messaging)
+        Industry standard format for a schedule. This goes to Sabre, ATA, OAG, Galileo...
+        IM Record Types: Header, Carrier, Flight Leg, Segment Data, Trailer</string>
+    <key>SSL</key>
+    <string>SAAS Schedule Loader</string>
+    <key>SSR</key>
+    <string>Special Service Requirement
+        Element which allows an agent to request a special service.  Examples include special meals, wheelchair assistance and seat requests.  These items may or may not be handled automatically by the receiving system.  Many SSR codes are automated using strict format requirement for the message elements</string>
+    <key>Standby</key>
+    <string>A potential revenue passenger who presents himself/herself at a designated check- in location, and who is prepared to travel if space is available.
+        
+        Synonyms:  Go Show</string>
+    <key>Starburst Flight</key>
+    <string>Refer to Complexing Flight</string>
+    <key>Station</key>
+    <string>Refer to Airport</string>
+    <key>Stopover</key>
+    <string>A deliberate interruption of a journey by a passenger, at a point between the place of original departure and place of destination, which was agreed to in advance by the passenger.</string>
+    <key>Subsequent Segment</key>
+    <string>In relation to a prime segment, any segment(s) that have the same or a later date and are not the arrival segment to the prime segment</string>
+    <key>SVC</key>
+    <string>Stored Value Card</string>
+    <key>SVCF</key>
+    <string>Stored Value Card Fulfillment</string>
+    <key>SWA</key>
+    <string>Southwest Airlines</string>
+    <key>SWABIZ</key>
+    <string>Southwest’s business travel site.</string>
+    <key>SWABIZ Anonymous User</key>
+    <string>A user associated with a SWABIZ Company account during a session that is not a SWABIZ Traveler or SWABIZ Member</string>
+    <key>SWABIZ Company</key>
+    <string>A company that has requested to use the services provided by SWABIZ.</string>
+    <key>SWABIZ Member</key>
+    <string>A user of SWABIZ that is associated with a SWABIZ Company and enrolled in Rapid Rewards.</string>
+    <key>SWABIZ Traveler</key>
+    <string>A user of SWABIZ that is associated with a SWABIZ Company and not enrolled in Rapid Rewards.</string>
+    <key>SWIFT</key>
+    <string>Southwest Integrated Flight Tracking System</string>
+    <key>SWIM</key>
+    <string>Southwest Airlines Internet Mail</string>
+    <key>SWIRT</key>
+    <string>Southwest Incident Response Team</string>
+    <key>TA Pools</key>
+    <string>Terminal Addresses. LNIATA was originally a fixed address for a fixed terminal.
+        With the advent of PCs, in the late 1980s, they were often connected to a gateway on a LAN. The PC connected to the gateway via NetBIOS , SPX/IPX or TCP/IP. The gateway used a card for the line protocol (ALC, P1024, X.25, etc). In some implementations, the gateway could hold a pool of available Terminal Addresses (TAs) and allocate them to PCs on a first-come / first-serve basis.
+        When the Front End Processor (FEP) started supporting TCP/IP, using OFEP on VAX/VMS, a pooling capability was built into OFEP. Fixed addresses were still available and still used extensively today, particularly by travel agents. For NOFEP, built on Sun/Solaris, the pooling was moved into the host and the software package is known as TAM. The connection to NOFEP specifies a pool name, and the TA is allocated from that pool.</string>
+    <key>Tail Number</key>
+    <string>A unique number assigned to a particular aircraft.</string>
+    <key>Tankering</key>
+    <string>Practice of overfilling with fuel at stations with lower fuel costs so that less fuel is needed at stations that have a higher fuel cost which saves the company money.</string>
+    <key>TBD</key>
+    <string>To Be Determined</string>
+    <key>TCB</key>
+    <string>The Connection Building</string>
+    <key>TCCB</key>
+    <string>Technology Change Control Board</string>
+    <key>TCS</key>
+    <string>Tata Consultancy Services</string>
+    <key>TE</key>
+    <string>Terminal Emulation</string>
+    <key>TF</key>
+    <string>Traffic Forecaster</string>
+    <key>Through Fare</key>
+    <string>A fare applicable for travel between two consecutive fare construction points via an intermediate point or points. A through fare can be a Published/Specified fare or a Constructed/Unpublished fare.</string>
+    <key>Thru</key>
+    <string>A flight may make a</string>
+    <key>Thru Check-In</key>
+    <string>A capability that allows a passenger to check-in for their codeshare flights at the time of check-in at the purchasing airline.</string>
+    <key>ThruTime</key>
+    <string>Interval between legs of a flight</string>
+    <key>Ticket Designator</key>
+    <string>Refer to Promotion (Promo) Code</string>
+    <key>Ticketing Time Limits</key>
+    <string>The time, as agreed with the airline, by which a passenger must secure his/her ticket for his/her confirmed reservation. The passenger meets this requirement by purchasing a ticket which indicates his/her reserved space, or by having a previously issued ticket revalidated or reissued to reflect the reserved space.</string>
+    <key>Ticketless</key>
+    <string>A system for ticketing passengers for air travel.</string>
+    <key>Timatic</key>
+    <string>IATA tool to obtain PAX info for border control (PP, Visa, Health, Tax, Customs)</string>
+    <key>Timetable</key>
+    <string>Facility provided in some systems to display a list of flights operating between two points with indication of a day of operation, period of operation, etc.  but with no attempt to indicate booking status.</string>
+    <key>TLA</key>
+    <string>Three Letter Acronym</string>
+    <key>TLS</key>
+    <string>Transport Layer Security</string>
+    <key>Transatlantic</key>
+    <string>Transportation between the Area 1 and Area 2/3 via the Atlantic Ocean.</string>
+    <key>Transborder</key>
+    <string>Transportation between the US and Canada.</string>
+    <key>Transoceanic</key>
+    <string>Transatlantic and/or transpacific travel</string>
+    <key>Transpacific</key>
+    <string>Transportation between Area I and 3 via the Pacific Ocean.</string>
+    <key>Trip</key>
+    <string>Refer to Journey</string>
+    <key>TTY</key>
+    <string>Teletype Messaging</string>
+    <key>TurnTime</key>
+    <string>Interval between flights</string>
+    <key>TWS</key>
+    <string>Tivoli Workload Scheduler</string>
+    <key>UATP</key>
+    <string>Universal Air Travel Plan
+        Global corporate travel payment network - includes PayPal</string>
+    <key>UCM</key>
+    <string>Unified Change Management</string>
+    <key>UFR</key>
+    <string>Unused Funds Repository</string>
+    <key>UM</key>
+    <string>Unaccompanied Minor</string>
+    <key>Upsell</key>
+    <string>Marketing communications designed to encourage potential customers to purchase products in a higher price tier.</string>
+    <key>USPS</key>
+    <string>United States Postal Service</string>
+    <key>UUID</key>
+    <string>Universally Unique Identifier</string>
+    <key>VCR</key>
+    <string>Virtual Coupon Record</string>
+    <key>Vendor</key>
+    <string>Provider of a travel service to agents.  Vendors may be airlines, hotels chains, car rental firms or any other provider of services which may be sold through a CRS.  Each vendor owns the inventory for its own services which may be sold through distribution services.</string>
+    <key>VOB</key>
+    <string>Versioned Object Base</string>
+    <key>VPAR</key>
+    <string>Virtual Partition</string>
+    <key>W Flight</key>
+    <string>Refer to Complexing Flight</string>
+    <key>WFH</key>
+    <string>Working From Home</string>
+    <key>White Label</key>
+    <string>A system operated by company A which is marketed and branded company B.  A customer is typically unaware of the fact that the system is operated by company A. Example:  Southwest’s markets a cruise product using a white label system operated by Travelocity.</string>
+    <key>WMSCR</key>
+    <string>Weather Message Switching Center Replacement</string>
+    <key>WN</key>
+    <string>airline code for Southwest Airlines</string>
+    <key>XML</key>
+    <string>eXtensible Markup Language</string>
+    <key>XSD</key>
+    <string>XML Schema Definition</string>
+    <key>Y Flight</key>
+    <string>Refer to Complexing Flight</string>
+    <key>YT</key>
+    <string>Young Traveler</string>
+
+</dict>
+</plist>
