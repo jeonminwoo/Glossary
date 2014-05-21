@@ -3,7 +3,7 @@
 //  Glossary
 //
 //  Created by Minwoo Jeon on 5/9/14.
-//  Copyright (c) 2014 Keith Harrison. All rights reserved.
+//  Copyright (c) 2014 Minwoo Jeon. All rights reserved.
 //
 
 #import "ColleenTableViewController.h"
@@ -50,7 +50,7 @@ static NSString *UYLCellIdentifier = @"UYLTextCell";
 }
 
 
-- (UYLTextCell *)prototypeCell
+- (GlossaryCell *)prototypeCell
 {
     if (!prototypeCell)
     {
@@ -99,10 +99,10 @@ static NSString *UYLCellIdentifier = @"UYLTextCell";
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UYLTextCell *cell = [self.tableView dequeueReusableCellWithIdentifier:UYLCellIdentifier forIndexPath:indexPath];
+    GlossaryCell *cell = [self.tableView dequeueReusableCellWithIdentifier:UYLCellIdentifier forIndexPath:indexPath];
     
     if (cell == nil) {
-        cell = [[UYLTextCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:UYLCellIdentifier];
+        cell = [[GlossaryCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:UYLCellIdentifier];
     }
     
     [self configureCell:cell tableView:tableView forRowAtIndexPath:indexPath];
@@ -111,9 +111,9 @@ static NSString *UYLCellIdentifier = @"UYLTextCell";
 
 - (void)configureCell:(UITableViewCell *)cell tableView:(UITableView *)tableView forRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if ([cell isKindOfClass:[UYLTextCell class]])
+    if ([cell isKindOfClass:[GlossaryCell class]])
     {
-        UYLTextCell *textCell = (UYLTextCell *)cell;
+        GlossaryCell *textCell = (GlossaryCell *)cell;
         if (tableView == self.searchDisplayController.searchResultsTableView) {
             NSString *key = [searchResults objectAtIndex:indexPath.row];
             NSString *value = [self.sourceData objectForKey:key];

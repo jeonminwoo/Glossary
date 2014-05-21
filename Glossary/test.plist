@@ -600,11 +600,6 @@
         Line/Route 50.  DAL-HOU-CRP = Flight 3; CRP-HOU-DAL-OKC = Flight 25; OKC-DEN-MSP = Flight 293.</string>
 	<key>RPRT</key>
 	<string>VCR Coupon Status code – Reprinted</string>
-	<key>Rule 85</key>
-	<string>Involves the accommodation of Customers on flights other than those reserved due to expected adverse weather or other irregular operational situations.  A fare upgrade is not involved.
-        Rule 85 is the term used in reference to Article 85 of the Contract of Carriage and is the reaccommodation plan used when both:
-        •Flight is delayed more than 15 minutes or cancelled and or diverted
-        •Customers were not advised of the possible diversion</string>
 	<key>Rule 90</key>
 	<string>Rule 90 allows for the refund of a ticket regardless of the original ticketing restrictions and is generally used during irregular operations or when the Customer has been inconvenienced.  At the Customer&apos;s request, we will transport the Customer on another SWA flight with available seating at no additional charge;  Refund the value of the unused portion of the ticket; Or provide credit for the value of the unused portions of the ticket via a travel voucher.  In the event of a cancelled or delayed flight, all ticket types are refundable to the original form of payment.</string>
 	<key>Rule Categories</key>

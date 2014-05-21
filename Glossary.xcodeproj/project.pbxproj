@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		53512CFC18AC3A0300A74F57 /* UYLTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53512CFB18AC3A0300A74F57 /* UYLTableViewController.m */; };
+		53512CFC18AC3A0300A74F57 /* GlossaryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53512CFB18AC3A0300A74F57 /* GlossaryTableViewController.m */; };
 		5363F6D618AADBF6001CBD3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5363F6D518AADBF6001CBD3A /* Foundation.framework */; };
 		5363F6D818AADBF6001CBD3A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5363F6D718AADBF6001CBD3A /* CoreGraphics.framework */; };
 		5363F6DA18AADBF6001CBD3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5363F6D918AADBF6001CBD3A /* UIKit.framework */; };
 		5363F6E018AADBF6001CBD3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5363F6DE18AADBF6001CBD3A /* InfoPlist.strings */; };
 		5363F6E218AADBF6001CBD3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5363F6E118AADBF6001CBD3A /* main.m */; };
-		5363F6E618AADBF6001CBD3A /* UYLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5363F6E518AADBF6001CBD3A /* UYLAppDelegate.m */; };
+		5363F6E618AADBF6001CBD3A /* GlossaryAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5363F6E518AADBF6001CBD3A /* GlossaryAppDelegate.m */; };
 		5363F6E918AADBF6001CBD3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5363F6E718AADBF6001CBD3A /* Main.storyboard */; };
 		5363F6EE18AADBF6001CBD3A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5363F6ED18AADBF6001CBD3A /* Images.xcassets */; };
-		53A8DCA618AC37530053ABAF /* UYLTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A8DCA518AC37530053ABAF /* UYLTextCell.m */; };
+		53A8DCA618AC37530053ABAF /* GlossaryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A8DCA518AC37530053ABAF /* GlossaryCell.m */; };
 		A81E1B03192BD558001170AA /* 29-heart.png in Resources */ = {isa = PBXBuildFile; fileRef = A81E1B02192BD558001170AA /* 29-heart.png */; };
 		A81E1B05192BD584001170AA /* 96-book.png in Resources */ = {isa = PBXBuildFile; fileRef = A81E1B04192BD584001170AA /* 96-book.png */; };
 		A837C021191BCBE1006B9ECE /* swa.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A837C020191BCBE1006B9ECE /* swa.jpeg */; };
@@ -27,11 +27,12 @@
 		A8B4ED541919484F005CA420 /* CODA.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8B4ED501919484F005CA420 /* CODA.plist */; };
 		A8B4ED5719196AE1005CA420 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B4ED5619196AE1005CA420 /* HomeViewController.m */; };
 		A8B4ED5919196B23005CA420 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B4ED5819196B23005CA420 /* MessageUI.framework */; };
+		A8E0F6EF192D3C2100EE1904 /* airline.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8E0F6EE192D3C2100EE1904 /* airline.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		53512CFA18AC3A0300A74F57 /* UYLTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UYLTableViewController.h; sourceTree = "<group>"; };
-		53512CFB18AC3A0300A74F57 /* UYLTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UYLTableViewController.m; sourceTree = "<group>"; };
+		53512CFA18AC3A0300A74F57 /* GlossaryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlossaryTableViewController.h; sourceTree = "<group>"; };
+		53512CFB18AC3A0300A74F57 /* GlossaryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlossaryTableViewController.m; sourceTree = "<group>"; };
 		5363F6D218AADBF6001CBD3A /* Glossary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Glossary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5363F6D518AADBF6001CBD3A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5363F6D718AADBF6001CBD3A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -40,13 +41,13 @@
 		5363F6DF18AADBF6001CBD3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5363F6E118AADBF6001CBD3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5363F6E318AADBF6001CBD3A /* Glossary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Glossary-Prefix.pch"; sourceTree = "<group>"; };
-		5363F6E418AADBF6001CBD3A /* UYLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UYLAppDelegate.h; sourceTree = "<group>"; };
-		5363F6E518AADBF6001CBD3A /* UYLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UYLAppDelegate.m; sourceTree = "<group>"; };
+		5363F6E418AADBF6001CBD3A /* GlossaryAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlossaryAppDelegate.h; sourceTree = "<group>"; };
+		5363F6E518AADBF6001CBD3A /* GlossaryAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlossaryAppDelegate.m; sourceTree = "<group>"; };
 		5363F6E818AADBF6001CBD3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5363F6ED18AADBF6001CBD3A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5363F6F418AADBF6001CBD3A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		53A8DCA418AC37530053ABAF /* UYLTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UYLTextCell.h; sourceTree = "<group>"; };
-		53A8DCA518AC37530053ABAF /* UYLTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UYLTextCell.m; sourceTree = "<group>"; };
+		53A8DCA418AC37530053ABAF /* GlossaryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlossaryCell.h; sourceTree = "<group>"; };
+		53A8DCA518AC37530053ABAF /* GlossaryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlossaryCell.m; sourceTree = "<group>"; };
 		A81E1B02192BD558001170AA /* 29-heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "29-heart.png"; sourceTree = "<group>"; };
 		A81E1B04192BD584001170AA /* 96-book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "96-book.png"; sourceTree = "<group>"; };
 		A837C020191BCBE1006B9ECE /* swa.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = swa.jpeg; sourceTree = "<group>"; };
@@ -59,6 +60,7 @@
 		A8B4ED5519196AE1005CA420 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		A8B4ED5619196AE1005CA420 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		A8B4ED5819196B23005CA420 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		A8E0F6EE192D3C2100EE1904 /* airline.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = airline.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,14 +113,14 @@
 				5363F6E718AADBF6001CBD3A /* Main.storyboard */,
 				A8B4ED5519196AE1005CA420 /* HomeViewController.h */,
 				A8B4ED5619196AE1005CA420 /* HomeViewController.m */,
-				53512CFA18AC3A0300A74F57 /* UYLTableViewController.h */,
-				53512CFB18AC3A0300A74F57 /* UYLTableViewController.m */,
+				53512CFA18AC3A0300A74F57 /* GlossaryTableViewController.h */,
+				53512CFB18AC3A0300A74F57 /* GlossaryTableViewController.m */,
 				A837C022191D9428006B9ECE /* ColleenTableViewController.h */,
 				A837C023191D9428006B9ECE /* ColleenTableViewController.m */,
-				5363F6E418AADBF6001CBD3A /* UYLAppDelegate.h */,
-				5363F6E518AADBF6001CBD3A /* UYLAppDelegate.m */,
-				53A8DCA418AC37530053ABAF /* UYLTextCell.h */,
-				53A8DCA518AC37530053ABAF /* UYLTextCell.m */,
+				5363F6E418AADBF6001CBD3A /* GlossaryAppDelegate.h */,
+				5363F6E518AADBF6001CBD3A /* GlossaryAppDelegate.m */,
+				53A8DCA418AC37530053ABAF /* GlossaryCell.h */,
+				53A8DCA518AC37530053ABAF /* GlossaryCell.m */,
 				5363F6ED18AADBF6001CBD3A /* Images.xcassets */,
 				5363F6DC18AADBF6001CBD3A /* Supporting Files */,
 			);
@@ -134,6 +136,7 @@
 				A8B4ED4D1919484F005CA420 /* InI.png */,
 				A8B4ED4E1919484F005CA420 /* test.plist */,
 				A8B4ED4F1919484F005CA420 /* colleen.plist */,
+				A8E0F6EE192D3C2100EE1904 /* airline.plist */,
 				A8B4ED501919484F005CA420 /* CODA.plist */,
 				5363F6DD18AADBF6001CBD3A /* Glossary-Info.plist */,
 				5363F6DE18AADBF6001CBD3A /* InfoPlist.strings */,
@@ -169,9 +172,9 @@
 		5363F6CA18AADBF6001CBD3A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = UYL;
+				CLASSPREFIX = Glossary;
 				LastUpgradeCheck = 0510;
-				ORGANIZATIONNAME = "Keith Harrison";
+				ORGANIZATIONNAME = "Minwoo Jeon";
 			};
 			buildConfigurationList = 5363F6CD18AADBF6001CBD3A /* Build configuration list for PBXProject "Glossary" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -204,6 +207,7 @@
 				A8B4ED541919484F005CA420 /* CODA.plist in Resources */,
 				A8B4ED531919484F005CA420 /* colleen.plist in Resources */,
 				5363F6E018AADBF6001CBD3A /* InfoPlist.strings in Resources */,
+				A8E0F6EF192D3C2100EE1904 /* airline.plist in Resources */,
 				5363F6E918AADBF6001CBD3A /* Main.storyboard in Resources */,
 				A837C021191BCBE1006B9ECE /* swa.jpeg in Resources */,
 			);
@@ -216,12 +220,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53512CFC18AC3A0300A74F57 /* UYLTableViewController.m in Sources */,
+				53512CFC18AC3A0300A74F57 /* GlossaryTableViewController.m in Sources */,
 				5363F6E218AADBF6001CBD3A /* main.m in Sources */,
 				A837C024191D9428006B9ECE /* ColleenTableViewController.m in Sources */,
-				53A8DCA618AC37530053ABAF /* UYLTextCell.m in Sources */,
+				53A8DCA618AC37530053ABAF /* GlossaryCell.m in Sources */,
 				A8B4ED5719196AE1005CA420 /* HomeViewController.m in Sources */,
-				5363F6E618AADBF6001CBD3A /* UYLAppDelegate.m in Sources */,
+				5363F6E618AADBF6001CBD3A /* GlossaryAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
