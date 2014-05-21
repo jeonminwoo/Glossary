@@ -13,4 +13,6 @@
 @property (nonatomic, strong) NSMutableDictionary *sourceData;
 @property (nonatomic, strong) NSArray *sortedKeys;
 @property (nonatomic, strong) UYLTextCell *prototypeCell;
+@property (nonatomic, strong) NSMutableArray *searchResults;
+@property (nonatomic, strong) NSArray *alphabetsArray;
 @end

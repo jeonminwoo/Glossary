@@ -14,13 +14,13 @@
 
 @implementation ColleenTableViewController
 {
-    NSMutableArray *searchResults;
-    NSArray *alphabetsArray;
+
 }
 
 @synthesize sourceData;
 @synthesize sortedKeys;
 @synthesize prototypeCell;
+@synthesize searchResults;
 
 static NSString *UYLCellIdentifier = @"UYLTextCell";
 

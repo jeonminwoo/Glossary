@@ -40,13 +40,13 @@
 
 @implementation UYLTableViewController
 {
-    NSMutableArray *searchResults;
-    NSArray *alphabetsArray;
 }
 
 @synthesize sourceData;
 @synthesize sortedKeys;
 @synthesize prototypeCell;
+@synthesize searchResults;
+@synthesize alphabetsArray;
 
 static NSString *UYLCellIdentifier = @"UYLTextCell";
 
@@ -94,6 +94,8 @@ static NSString *UYLCellIdentifier = @"UYLTextCell";
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(didChangePreferredContentSize:)
                                                  name:UIContentSizeCategoryDidChangeNotification object:nil];
+
+    [self.searchDisplayController.searchBar becomeFirstResponder];
 }
 
 - (void)dealloc
