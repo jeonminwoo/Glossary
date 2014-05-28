@@ -24,10 +24,6 @@
 
 static NSString *UYLCellIdentifier = @"UYLTextCell";
 
-#pragma mark -
-#pragma mark === Accessors ===
-#pragma mark -
-
 - (NSMutableDictionary *)sourceData
 {
     if (!sourceData)
@@ -59,17 +55,12 @@ static NSString *UYLCellIdentifier = @"UYLTextCell";
     return prototypeCell;
 }
 
-#pragma mark -
-#pragma mark === View Life Cycle ===
-#pragma mark -
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(didChangePreferredContentSize:)
                                                  name:UIContentSizeCategoryDidChangeNotification object:nil];
-    //[self createAlphabetArray];
 }
 
 - (void)dealloc
@@ -83,10 +74,6 @@ static NSString *UYLCellIdentifier = @"UYLTextCell";
 {
     [self.tableView reloadData];
 }
-
-#pragma mark -
-#pragma mark === UITableViewDataSource ===
-#pragma mark -
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
@@ -128,10 +115,6 @@ static NSString *UYLCellIdentifier = @"UYLTextCell";
         
     }
 }
-
-#pragma mark -
-#pragma mark === UITableViewDelegate ===
-#pragma mark -
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {

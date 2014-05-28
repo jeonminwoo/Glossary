@@ -1,19 +1,18 @@
 //
-//  GlossaryTableViewController.m
+//  CODATableViewController.m
 //  Glossary
 //
-//  Created by Minwoo Jeon on 5/6/14.
+//  Created by Minwoo Jeon on 5/28/14.
 //  Copyright (c) 2014 Minwoo Jeon. All rights reserved.
 //
 
-#import "GlossaryTableViewController.h"
-#import "GlossaryCell.h"
+#import "CODATableViewController.h"
 
-@interface GlossaryTableViewController ()
+@interface CODATableViewController ()
 
 @end
 
-@implementation GlossaryTableViewController
+@implementation CODATableViewController
 {
 }
 
@@ -21,7 +20,6 @@
 @synthesize sortedKeys;
 @synthesize prototypeCell;
 @synthesize searchResults;
-@synthesize alphabetsArray;
 
 static NSString *UYLCellIdentifier = @"UYLTextCell";
 
@@ -29,19 +27,10 @@ static NSString *UYLCellIdentifier = @"UYLTextCell";
 {
     if (!sourceData)
     {
-        NSString *path = [[NSBundle mainBundle]pathForResource:@"airline" ofType:@"plist"];
-        NSString *path2 = [[NSBundle mainBundle]pathForResource:@"colleen" ofType:@"plist"];
-        NSString *path3 = [[NSBundle mainBundle]pathForResource:@"CODA" ofType:@"plist"];
-        NSString *path4 = [[NSBundle mainBundle]pathForResource:@"test" ofType:@"plist"];
-        
-        NSDictionary *colleenDict = [[NSDictionary alloc] initWithContentsOfFile:path2];
-        NSDictionary *codaDict = [[NSDictionary alloc] initWithContentsOfFile:path3];
-        NSDictionary *airlineDict = [[NSDictionary alloc] initWithContentsOfFile:path4];
+        NSString *path = [[NSBundle mainBundle]pathForResource:@"CODA" ofType:@"plist"];
         
         sourceData = [[NSMutableDictionary alloc] initWithContentsOfFile:path];
-        [sourceData addEntriesFromDictionary:colleenDict];
-        [sourceData addEntriesFromDictionary:codaDict];
-        [sourceData addEntriesFromDictionary:airlineDict];
+        
     }
     return sourceData;
 }
@@ -71,8 +60,6 @@ static NSString *UYLCellIdentifier = @"UYLTextCell";
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(didChangePreferredContentSize:)
                                                  name:UIContentSizeCategoryDidChangeNotification object:nil];
-
-    [self.searchDisplayController.searchBar becomeFirstResponder];
 }
 
 - (void)dealloc
@@ -93,7 +80,7 @@ static NSString *UYLCellIdentifier = @"UYLTextCell";
     if (tableView == self.searchDisplayController.searchResultsTableView) {
         return [searchResults count];
     } else {
-        return [self.sortedKeys count];
+        return [[self.sourceData allKeys]count];
     }
 }
 
@@ -104,7 +91,7 @@ static NSString *UYLCellIdentifier = @"UYLTextCell";
     if (cell == nil) {
         cell = [[GlossaryCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:UYLCellIdentifier];
     }
-
+    
     [self configureCell:cell tableView:tableView forRowAtIndexPath:indexPath];
     return cell;
 }
@@ -125,6 +112,7 @@ static NSString *UYLCellIdentifier = @"UYLTextCell";
             textCell.termLabel.text = key;
             textCell.defLabel.text = value;
         }
+        
     }
 }
 
@@ -167,44 +155,4 @@ static NSString *UYLCellIdentifier = @"UYLTextCell";
     
     return YES;
 }
-
-
-//Alphabet Index
-
-- (NSArray *)alphabetsArray
-{
-    if (!alphabetsArray)
-    {
-        alphabetsArray = [[NSArray alloc] initWithObjects:@"{search}",@"A",@"B",@"C",@"D",@"E",@"F",@"G",@"H",@"I",@"J",@"K",@"L",@"M",@"N",@"O",@"P",@"Q",@"R",@"S",@"T",@"U",@"V",@"W",@"X",@"Y",@"Z",nil];
-    }
-    return alphabetsArray;
-}
-
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
-{
-    //return [self.alphabetsArray count];
-    return 1;
-}
-
-- (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView {
-    return self.alphabetsArray;
-}
-
-- (NSInteger)tableView:(UITableView *)tableView sectionForSectionIndexTitle:(NSString *)title atIndex:(NSInteger)index
-{
-     NSArray *dataArray = self.sortedKeys;
-     for (int i = 0; i< [dataArray count]; i++) {
-         NSString *letterString = [[dataArray objectAtIndex:i] substringToIndex:1];
-         
-         if ([letterString isEqualToString:title]) {
-             NSIndexPath *indexSection = [NSIndexPath indexPathForRow:i inSection:0];
-             [self.tableView reloadData];
-             [self.tableView scrollToRowAtIndexPath:indexSection atScrollPosition:UITableViewScrollPositionTop animated:YES];
-             NSLog(@"title:%@, i:%d",title, i);
-             return indexSection.row;
-         }
-     }
-     return 0;
-}
-
 @end

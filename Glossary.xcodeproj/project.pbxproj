@@ -17,6 +17,7 @@
 		5363F6E918AADBF6001CBD3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5363F6E718AADBF6001CBD3A /* Main.storyboard */; };
 		5363F6EE18AADBF6001CBD3A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5363F6ED18AADBF6001CBD3A /* Images.xcassets */; };
 		53A8DCA618AC37530053ABAF /* GlossaryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A8DCA518AC37530053ABAF /* GlossaryCell.m */; };
+		A81B037C1935600D005FDE0D /* 13-target.png in Resources */ = {isa = PBXBuildFile; fileRef = A81B037B1935600D005FDE0D /* 13-target.png */; };
 		A81E1B03192BD558001170AA /* 29-heart.png in Resources */ = {isa = PBXBuildFile; fileRef = A81E1B02192BD558001170AA /* 29-heart.png */; };
 		A81E1B05192BD584001170AA /* 96-book.png in Resources */ = {isa = PBXBuildFile; fileRef = A81E1B04192BD584001170AA /* 96-book.png */; };
 		A837C021191BCBE1006B9ECE /* swa.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A837C020191BCBE1006B9ECE /* swa.jpeg */; };
@@ -27,6 +28,7 @@
 		A8B4ED541919484F005CA420 /* CODA.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8B4ED501919484F005CA420 /* CODA.plist */; };
 		A8B4ED5719196AE1005CA420 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B4ED5619196AE1005CA420 /* HomeViewController.m */; };
 		A8B4ED5919196B23005CA420 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B4ED5819196B23005CA420 /* MessageUI.framework */; };
+		A8D005CE193625E800B4402C /* CODATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D005CD193625E800B4402C /* CODATableViewController.m */; };
 		A8E0F6EF192D3C2100EE1904 /* airline.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8E0F6EE192D3C2100EE1904 /* airline.plist */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +50,7 @@
 		5363F6F418AADBF6001CBD3A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		53A8DCA418AC37530053ABAF /* GlossaryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlossaryCell.h; sourceTree = "<group>"; };
 		53A8DCA518AC37530053ABAF /* GlossaryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlossaryCell.m; sourceTree = "<group>"; };
+		A81B037B1935600D005FDE0D /* 13-target.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "13-target.png"; sourceTree = "<group>"; };
 		A81E1B02192BD558001170AA /* 29-heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "29-heart.png"; sourceTree = "<group>"; };
 		A81E1B04192BD584001170AA /* 96-book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "96-book.png"; sourceTree = "<group>"; };
 		A837C020191BCBE1006B9ECE /* swa.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = swa.jpeg; sourceTree = "<group>"; };
@@ -60,6 +63,8 @@
 		A8B4ED5519196AE1005CA420 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		A8B4ED5619196AE1005CA420 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		A8B4ED5819196B23005CA420 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		A8D005CC193625E800B4402C /* CODATableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CODATableViewController.h; sourceTree = "<group>"; };
+		A8D005CD193625E800B4402C /* CODATableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CODATableViewController.m; sourceTree = "<group>"; };
 		A8E0F6EE192D3C2100EE1904 /* airline.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = airline.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,6 +122,8 @@
 				53512CFB18AC3A0300A74F57 /* GlossaryTableViewController.m */,
 				A837C022191D9428006B9ECE /* ColleenTableViewController.h */,
 				A837C023191D9428006B9ECE /* ColleenTableViewController.m */,
+				A8D005CC193625E800B4402C /* CODATableViewController.h */,
+				A8D005CD193625E800B4402C /* CODATableViewController.m */,
 				5363F6E418AADBF6001CBD3A /* GlossaryAppDelegate.h */,
 				5363F6E518AADBF6001CBD3A /* GlossaryAppDelegate.m */,
 				53A8DCA418AC37530053ABAF /* GlossaryCell.h */,
@@ -130,6 +137,7 @@
 		5363F6DC18AADBF6001CBD3A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A81B037B1935600D005FDE0D /* 13-target.png */,
 				A81E1B04192BD584001170AA /* 96-book.png */,
 				A81E1B02192BD558001170AA /* 29-heart.png */,
 				A837C020191BCBE1006B9ECE /* swa.jpeg */,
@@ -199,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A81B037C1935600D005FDE0D /* 13-target.png in Resources */,
 				A8B4ED521919484F005CA420 /* test.plist in Resources */,
 				A81E1B05192BD584001170AA /* 96-book.png in Resources */,
 				5363F6EE18AADBF6001CBD3A /* Images.xcassets in Resources */,
@@ -225,6 +234,7 @@
 				A837C024191D9428006B9ECE /* ColleenTableViewController.m in Sources */,
 				53A8DCA618AC37530053ABAF /* GlossaryCell.m in Sources */,
 				A8B4ED5719196AE1005CA420 /* HomeViewController.m in Sources */,
+				A8D005CE193625E800B4402C /* CODATableViewController.m in Sources */,
 				5363F6E618AADBF6001CBD3A /* GlossaryAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
