@@ -185,13 +185,22 @@ static NSString *CellIdentifier = @"UYLTextCell";
         NSString *letterString = [[dataArray objectAtIndex:i] substringToIndex:1];
         
         if ([letterString isEqualToString:title]) {
-            NSIndexPath *indexSection = [NSIndexPath indexPathForRow:i inSection:0];
-            [self.tableView reloadData];
-            [self.tableView scrollToRowAtIndexPath:indexSection atScrollPosition:UITableViewScrollPositionTop animated:YES];
-            NSLog(@"title:%@, i:%d",title, i);
-            return indexSection.row;
+            if (i <= ([dataArray count]-5)) {
+                NSIndexPath *indexSection = [NSIndexPath indexPathForRow:i inSection:0];
+                [self.tableView reloadData];
+                [self.tableView scrollToRowAtIndexPath:indexSection atScrollPosition:UITableViewScrollPositionTop animated:YES];
+                NSLog(@"title:%@, i:%d",title, i);
+                return indexSection.row;
+            } else {
+                NSIndexPath *indexSection = [NSIndexPath indexPathForRow:[dataArray count]-5 inSection:0];
+                [self.tableView reloadData];
+                [self.tableView scrollToRowAtIndexPath:indexSection atScrollPosition:UITableViewScrollPositionTop animated:YES];
+                NSLog(@"title:%@, i:%d is out of scroll boundary", title, i);
+                return [dataArray count]-5;
+            }
         }
     }
+    NSLog(@"title:%@ not found", title);
     return 0;
 }
 
