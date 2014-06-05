@@ -21,8 +21,9 @@
 @synthesize sortedKeys;
 @synthesize prototypeCell;
 @synthesize searchResults;
+@synthesize alphabetsArray;
 
-static NSString *UYLCellIdentifier = @"UYLTextCell";
+static NSString *CellIdentifier = @"UYLTextCell";
 
 - (NSMutableDictionary *)sourceData
 {
@@ -50,7 +51,7 @@ static NSString *UYLCellIdentifier = @"UYLTextCell";
 {
     if (!prototypeCell)
     {
-        prototypeCell = [self.tableView dequeueReusableCellWithIdentifier:UYLCellIdentifier];
+        prototypeCell = [self.tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     }
     return prototypeCell;
 }
@@ -86,10 +87,10 @@ static NSString *UYLCellIdentifier = @"UYLTextCell";
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    GlossaryCell *cell = [self.tableView dequeueReusableCellWithIdentifier:UYLCellIdentifier forIndexPath:indexPath];
+    GlossaryCell *cell = [self.tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     if (cell == nil) {
-        cell = [[GlossaryCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:UYLCellIdentifier];
+        cell = [[GlossaryCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     
     [self configureCell:cell tableView:tableView forRowAtIndexPath:indexPath];
@@ -155,4 +156,43 @@ static NSString *UYLCellIdentifier = @"UYLTextCell";
     
     return YES;
 }
+
+//Alphabet Index
+
+- (NSArray *)alphabetsArray
+{
+    if (!alphabetsArray)
+    {
+        alphabetsArray = [[NSArray alloc] initWithObjects:@"{search}",@"A",@"B",@"C",@"D",@"E",@"F",@"G",@"H",@"I",@"J",@"K",@"L",@"M",@"N",@"O",@"P",@"Q",@"R",@"S",@"T",@"U",@"V",@"W",@"X",@"Y",@"Z",nil];
+    }
+    return alphabetsArray;
+}
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    //return [self.alphabetsArray count];
+    return 1;
+}
+
+- (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView {
+    return self.alphabetsArray;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView sectionForSectionIndexTitle:(NSString *)title atIndex:(NSInteger)index
+{
+    NSArray *dataArray = self.sortedKeys;
+    for (int i = 0; i< [dataArray count]; i++) {
+        NSString *letterString = [[dataArray objectAtIndex:i] substringToIndex:1];
+        
+        if ([letterString isEqualToString:title]) {
+            NSIndexPath *indexSection = [NSIndexPath indexPathForRow:i inSection:0];
+            [self.tableView reloadData];
+            [self.tableView scrollToRowAtIndexPath:indexSection atScrollPosition:UITableViewScrollPositionTop animated:YES];
+            NSLog(@"title:%@, i:%d",title, i);
+            return indexSection.row;
+        }
+    }
+    return 0;
+}
+
 @end

@@ -23,7 +23,7 @@
 @synthesize searchResults;
 @synthesize alphabetsArray;
 
-static NSString *UYLCellIdentifier = @"UYLTextCell";
+static NSString *CellIdentifier = @"UYLTextCell";
 
 - (NSMutableDictionary *)sourceData
 {
@@ -60,7 +60,7 @@ static NSString *UYLCellIdentifier = @"UYLTextCell";
 {
     if (!prototypeCell)
     {
-        prototypeCell = [self.tableView dequeueReusableCellWithIdentifier:UYLCellIdentifier];
+        prototypeCell = [self.tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     }
     return prototypeCell;
 }
@@ -99,10 +99,10 @@ static NSString *UYLCellIdentifier = @"UYLTextCell";
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    GlossaryCell *cell = [self.tableView dequeueReusableCellWithIdentifier:UYLCellIdentifier forIndexPath:indexPath];
+    GlossaryCell *cell = [self.tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     if (cell == nil) {
-        cell = [[GlossaryCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:UYLCellIdentifier];
+        cell = [[GlossaryCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
 
     [self configureCell:cell tableView:tableView forRowAtIndexPath:indexPath];

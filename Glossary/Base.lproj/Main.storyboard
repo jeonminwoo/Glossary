@@ -37,7 +37,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Definition" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="kH3-d7-fqy">
-                                            <rect key="frame" x="20" y="41" width="280" height="43"/>
+                                            <rect key="frame" x="20" y="41" width="280" height="17"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -47,7 +47,7 @@
                                     <constraints>
                                         <constraint firstItem="Eze-VN-75p" firstAttribute="top" secondItem="Klw-MN-DnN" secondAttribute="top" constant="15" id="4XP-JF-9x8"/>
                                         <constraint firstItem="kH3-d7-fqy" firstAttribute="leading" secondItem="Klw-MN-DnN" secondAttribute="leading" constant="20" symbolic="YES" id="5tt-hG-Cin"/>
-                                        <constraint firstAttribute="bottom" secondItem="kH3-d7-fqy" secondAttribute="bottom" constant="15" id="8FZ-Vh-MpA"/>
+                                        <constraint firstAttribute="bottom" secondItem="kH3-d7-fqy" secondAttribute="bottom" priority="250" constant="15" id="8FZ-Vh-MpA"/>
                                         <constraint firstItem="Eze-VN-75p" firstAttribute="leading" secondItem="Klw-MN-DnN" secondAttribute="leading" constant="20" symbolic="YES" id="LOQ-4L-8OA"/>
                                         <constraint firstItem="kH3-d7-fqy" firstAttribute="top" secondItem="Eze-VN-75p" secondAttribute="bottom" constant="5" id="Sui-zW-zzi"/>
                                         <constraint firstAttribute="trailing" secondItem="Eze-VN-75p" secondAttribute="trailing" constant="20" symbolic="YES" id="XnN-yo-duO"/>
@@ -123,7 +123,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Definition" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="mMP-Ux-1PE">
-                                            <rect key="frame" x="20" y="41" width="280" height="36"/>
+                                            <rect key="frame" x="20" y="41" width="280" height="17"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -137,7 +137,7 @@
                                         <constraint firstItem="mMP-Ux-1PE" firstAttribute="leading" secondItem="e0f-Aj-ddo" secondAttribute="leading" constant="20" symbolic="YES" id="Xa7-h8-Y1w"/>
                                         <constraint firstAttribute="trailing" secondItem="Lfl-PF-0mr" secondAttribute="trailing" constant="20" symbolic="YES" id="mSu-IH-Wgu"/>
                                         <constraint firstItem="Lfl-PF-0mr" firstAttribute="leading" secondItem="e0f-Aj-ddo" secondAttribute="leading" constant="20" symbolic="YES" id="nIF-gp-9FT"/>
-                                        <constraint firstAttribute="bottom" secondItem="mMP-Ux-1PE" secondAttribute="bottom" constant="15" id="y8G-ry-kCU"/>
+                                        <constraint firstAttribute="bottom" secondItem="mMP-Ux-1PE" secondAttribute="bottom" priority="250" constant="15" id="y8G-ry-kCU"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
@@ -364,7 +364,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Definition" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="Aqr-eU-xYk">
-                                            <rect key="frame" x="20" y="41" width="280" height="36"/>
+                                            <rect key="frame" x="20" y="41" width="280" height="17"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -374,7 +374,7 @@
                                     <constraints>
                                         <constraint firstItem="Aqr-eU-xYk" firstAttribute="leading" secondItem="LiT-k7-keD" secondAttribute="leading" constant="20" symbolic="YES" id="12G-XT-aDY"/>
                                         <constraint firstItem="G6q-Mp-1ig" firstAttribute="top" secondItem="LiT-k7-keD" secondAttribute="top" constant="15" id="AKP-Zb-M3E"/>
-                                        <constraint firstAttribute="bottom" secondItem="Aqr-eU-xYk" secondAttribute="bottom" constant="15" id="DGe-jr-Gt1"/>
+                                        <constraint firstAttribute="bottom" secondItem="Aqr-eU-xYk" secondAttribute="bottom" priority="250" constant="15" id="DGe-jr-Gt1"/>
                                         <constraint firstAttribute="trailing" secondItem="Aqr-eU-xYk" secondAttribute="trailing" constant="20" symbolic="YES" id="LXr-u0-4WI"/>
                                         <constraint firstItem="Aqr-eU-xYk" firstAttribute="top" secondItem="G6q-Mp-1ig" secondAttribute="bottom" constant="5" id="cN5-AL-STl"/>
                                         <constraint firstItem="G6q-Mp-1ig" firstAttribute="leading" secondItem="LiT-k7-keD" secondAttribute="leading" constant="20" symbolic="YES" id="qtR-OI-whq"/>
@@ -450,6 +450,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="OrF-Up-DaB"/>
+        <segue reference="ptM-LV-tXN"/>
     </inferredMetricsTieBreakers>
 </document>
