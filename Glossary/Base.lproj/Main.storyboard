@@ -69,7 +69,7 @@
                         <barButtonItem key="leftBarButtonItem" title="&lt; Home" id="UM5-AR-Bym">
                             <color key="tintColor" red="0.78091119259999997" green="0.20384678170000001" blue="0.1857039654" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
-                                <segue destination="8GD-5m-mvy" kind="modal" id="NEK-g5-ZX6"/>
+                                <segue destination="GBQ-v7-FnO" kind="modal" id="EYF-2J-MQB"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -155,7 +155,7 @@
                         <barButtonItem key="leftBarButtonItem" title="&lt; Home" id="Rk6-I5-r7o">
                             <color key="tintColor" red="0.78091119259999997" green="0.20384678170000001" blue="0.1857039654" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
-                                <segue destination="8GD-5m-mvy" kind="modal" id="ptM-LV-tXN"/>
+                                <segue destination="GBQ-v7-FnO" kind="modal" id="o7M-ru-qLL"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -192,7 +192,7 @@
             </objects>
             <point key="canvasLocation" x="1896" y="1845"/>
         </scene>
-        <!--Home View Controller-->
+        <!--Home View Controller - Home-->
         <scene sceneID="fCn-3g-KgO">
             <objects>
                 <viewController id="8GD-5m-mvy" customClass="HomeViewController" sceneMemberID="viewController">
@@ -204,15 +204,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Airline Glossary" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sih-Wh-pvh">
-                                <rect key="frame" x="85" y="175" width="151" height="42"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sih-Wh-pvh">
+                                <rect key="frame" x="55" y="217" width="215" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Airline Glossary">
+                                        <attributes>
+                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <font key="NSFont" size="22" name="Futura-MediumItalic"/>
+                                            <font key="NSOriginalFont" size="18" name="GillSans-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OgH-Vx-xxS">
-                                <rect key="frame" x="92" y="271" width="140" height="45"/>
+                                <rect key="frame" x="92" y="313" width="140" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.78091119259999997" green="0.20384678170000001" blue="0.1857039654" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
@@ -231,7 +239,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="crz-y0-RnP">
-                                <rect key="frame" x="92" y="339" width="140" height="45"/>
+                                <rect key="frame" x="92" y="381" width="140" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.78091119259999997" green="0.20384678170000001" blue="0.1857039654" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
@@ -249,7 +257,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="InI.png" translatesAutoresizingMaskIntoConstraints="NO" id="JX7-gr-fQC">
-                                <rect key="frame" x="59" y="74" width="195" height="117"/>
+                                <rect key="frame" x="59" y="116" width="195" height="117"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="swa.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="20L-VE-PuA">
@@ -259,7 +267,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="5Ko-4O-G7x"/>
+                    <navigationItem key="navigationItem" title="Home" id="5Ko-4O-G7x"/>
                     <connections>
                         <outlet property="search" destination="OgH-Vx-xxS" id="cw5-rx-tCg"/>
                     </connections>
@@ -284,7 +292,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cod-5W-KHB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="453" y="185"/>
+            <point key="canvasLocation" x="529" y="185"/>
         </scene>
         <!--Navigation Controller - Glossary-All-->
         <scene sceneID="ibl-2h-oVA">
@@ -396,7 +404,7 @@
                         <barButtonItem key="leftBarButtonItem" title="&lt; Home" id="uV0-OJ-54W">
                             <color key="tintColor" red="0.78091119259999997" green="0.20384678170000001" blue="0.1857039654" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
-                                <segue destination="8GD-5m-mvy" kind="modal" id="OrF-Up-DaB"/>
+                                <segue destination="GBQ-v7-FnO" kind="modal" id="r6e-95-GBV"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -450,6 +458,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="ptM-LV-tXN"/>
+        <segue reference="o7M-ru-qLL"/>
     </inferredMetricsTieBreakers>
 </document>

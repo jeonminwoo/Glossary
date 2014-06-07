@@ -41,7 +41,7 @@
 
 - (IBAction)showEmail:(id)sender {
     //email subject
-    NSString *emailTitle = @"SWA Glossary Bug";
+    NSString *emailTitle = @"I&I Airline Glossary Bug";
     
     //email contents
     NSString *messageBody = @"I would like to report the following bug in this app:";

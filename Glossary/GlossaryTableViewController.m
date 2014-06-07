@@ -114,17 +114,17 @@ static NSString *CellIdentifier = @"UYLTextCell";
     if ([cell isKindOfClass:[GlossaryCell class]])
     {
         GlossaryCell *textCell = (GlossaryCell *)cell;
+        NSString *key;
+        NSString *value;
         if (tableView == self.searchDisplayController.searchResultsTableView) {
-            NSString *key = [searchResults objectAtIndex:indexPath.row];
-            NSString *value = [self.sourceData objectForKey:key];
-            textCell.termLabel.text = key;
-            textCell.defLabel.text = value;
+            key = [searchResults objectAtIndex:indexPath.row];
+            value = [self.sourceData objectForKey:key];
         } else {
-            NSString *key = [self.sortedKeys objectAtIndex:indexPath.row];
-            NSString *value = [self.sourceData objectForKey:key];
-            textCell.termLabel.text = key;
-            textCell.defLabel.text = value;
+            key = [self.sortedKeys objectAtIndex:indexPath.row];
+            value = [self.sourceData objectForKey:key];
         }
+        textCell.termLabel.text = key;
+        textCell.defLabel.text = value;
     }
 }
 
@@ -182,7 +182,6 @@ static NSString *CellIdentifier = @"UYLTextCell";
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    //return [self.alphabetsArray count];
     return 1;
 }
 
@@ -192,10 +191,16 @@ static NSString *CellIdentifier = @"UYLTextCell";
 
 - (NSInteger)tableView:(UITableView *)tableView sectionForSectionIndexTitle:(NSString *)title atIndex:(NSInteger)index
 {
+    if ([title isEqualToString: @"{search}"]) {
+        NSIndexPath *indexSection = [NSIndexPath indexPathForRow:0 inSection:0];
+        [self.tableView reloadData];
+        [self.tableView scrollToRowAtIndexPath:indexSection atScrollPosition:UITableViewScrollPositionTop animated:YES];
+        NSLog(@"title:%@, i:%d",title, 0);
+        return 0;
+    } else {
     NSArray *dataArray = self.sortedKeys;
     for (int i = 0; i< [dataArray count]; i++) {
         NSString *letterString = [[dataArray objectAtIndex:i] substringToIndex:1];
-        
         if ([letterString isEqualToString:title]) {
             if (i <= ([dataArray count]-5)) {
                 NSIndexPath *indexSection = [NSIndexPath indexPathForRow:i inSection:0];
@@ -211,6 +216,7 @@ static NSString *CellIdentifier = @"UYLTextCell";
                 return [dataArray count]-5;
             }
         }
+    }
     }
     NSLog(@"title:%@ not found", title);
     return 0;
