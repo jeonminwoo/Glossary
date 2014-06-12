@@ -73,12 +73,14 @@ static NSString *CellIdentifier = @"UYLTextCell";
     [self.tableView reloadData];
 }
 
-
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    if (tableView == self.searchDisplayController.searchResultsTableView) {
+    if (tableView == self.searchDisplayController.searchResultsTableView)
+    {
         return [searchResults count];
-    } else {
+    }
+    else
+    {
         return [[self.sourceData allKeys]count];
     }
 }
@@ -87,7 +89,8 @@ static NSString *CellIdentifier = @"UYLTextCell";
 {
     GlossaryCell *cell = [self.tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
-    if (cell == nil) {
+    if (cell == nil)
+    {
         cell = [[GlossaryCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     
@@ -102,16 +105,18 @@ static NSString *CellIdentifier = @"UYLTextCell";
         GlossaryCell *textCell = (GlossaryCell *)cell;
         NSString *key;
         NSString *value;
-        if (tableView == self.searchDisplayController.searchResultsTableView) {
+        if (tableView == self.searchDisplayController.searchResultsTableView)
+        {
             key = [searchResults objectAtIndex:indexPath.row];
             value = [self.sourceData objectForKey:key];
-        } else {
+        }
+        else
+        {
             key = [self.sortedKeys objectAtIndex:indexPath.row];
             value = [self.sourceData objectForKey:key];
         }
         textCell.termLabel.text = key;
         textCell.defLabel.text = value;
-        
     }
 }
 
@@ -134,7 +139,7 @@ static NSString *CellIdentifier = @"UYLTextCell";
     return UITableViewAutomaticDimension;
 }
 
-//Search function
+#pragma mark - Search function
 
 - (void)filterContentForSearchText:(NSString*)searchText scope:(NSString*)scope
 {
@@ -151,17 +156,27 @@ static NSString *CellIdentifier = @"UYLTextCell";
                                scope:[[self.searchDisplayController.searchBar scopeButtonTitles]
                                       objectAtIndex:[self.searchDisplayController.searchBar
                                                      selectedScopeButtonIndex]]];
-    
     return YES;
 }
 
-//Alphabet Index
+#pragma mark - Alphabet Index
 
 - (NSArray *)alphabetsArray
 {
     if (!alphabetsArray)
     {
-        alphabetsArray = [[NSArray alloc] initWithObjects:@"{search}",@"A",@"B",@"C",@"D",@"E",@"F",@"G",@"H",@"I",@"J",@"K",@"L",@"M",@"N",@"O",@"P",@"Q",@"R",@"S",@"T",@"U",@"V",@"W",@"X",@"Y",@"Z",nil];
+        NSMutableArray *temp = [[NSMutableArray alloc]initWithCapacity:0];
+        for (int i=0; i< self.sortedKeys.count; i++)
+        {
+            NSString *firstletter=[[self.sortedKeys objectAtIndex:i]substringToIndex:1];  //modifying the statement to first letter
+            if (![temp containsObject:firstletter])  //checking the array if the modified statement already exists in array
+            {
+                [temp addObject:firstletter];
+            }
+        }
+        [temp sortUsingSelector:@selector(localizedCaseInsensitiveCompare:)];   //sorting array in ascending array
+        //[temp insertObject:@"{search}" atIndex:0];
+        alphabetsArray = temp;
     }
     return alphabetsArray;
 }
@@ -177,26 +192,34 @@ static NSString *CellIdentifier = @"UYLTextCell";
 
 - (NSInteger)tableView:(UITableView *)tableView sectionForSectionIndexTitle:(NSString *)title atIndex:(NSInteger)index
 {
-    if ([title isEqualToString: @"{search}"]) {
+    if ([title isEqualToString: @"{search}"])
+    {
         NSIndexPath *indexSection = [NSIndexPath indexPathForRow:0 inSection:0];
-        [self.tableView reloadData];
+        //[self.tableView reloadData];
         [self.tableView scrollToRowAtIndexPath:indexSection atScrollPosition:UITableViewScrollPositionTop animated:YES];
         NSLog(@"title:%@, i:%d",title, 0);
         return 0;
-    } else {
+    }
+    else
+    {
         NSArray *dataArray = self.sortedKeys;
-        for (int i = 0; i< [dataArray count]; i++) {
+        for (int i = 0; i< [dataArray count]; i++)
+        {
             NSString *letterString = [[dataArray objectAtIndex:i] substringToIndex:1];
-            if ([letterString isEqualToString:title]) {
-                if (i <= ([dataArray count]-5)) {
+            if ([letterString isEqualToString:title])
+            {
+                if (i <= ([dataArray count]-5))
+                {
                     NSIndexPath *indexSection = [NSIndexPath indexPathForRow:i inSection:0];
-                    [self.tableView reloadData];
+                    //[self.tableView reloadData];
                     [self.tableView scrollToRowAtIndexPath:indexSection atScrollPosition:UITableViewScrollPositionTop animated:YES];
                     NSLog(@"title:%@, i:%d",title, i);
                     return indexSection.row;
-                } else {
+                }
+                else
+                {
                     NSIndexPath *indexSection = [NSIndexPath indexPathForRow:[dataArray count]-5 inSection:0];
-                    [self.tableView reloadData];
+                    //[self.tableView reloadData];
                     [self.tableView scrollToRowAtIndexPath:indexSection atScrollPosition:UITableViewScrollPositionTop animated:YES];
                     NSLog(@"title:%@, i:%d is out of scroll boundary", title, i);
                     return [dataArray count]-5;
@@ -204,6 +227,7 @@ static NSString *CellIdentifier = @"UYLTextCell";
             }
         }
     }
+    
     NSLog(@"title:%@ not found", title);
     return 0;
 }
